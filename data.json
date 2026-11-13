@@ -1,0 +1,3497 @@
+{
+  "meta": {
+    "generated_on": "2026-11-13",
+    "source": "real",
+    "source_note": "Real resume set from ../resumes",
+    "resume_count": 47,
+    "input_dir": "resumes",
+    "jobs": {
+      "lca": "JD1 - Life Cycle Assessment (LCA) Consultant (2-3+ yrs, GaBi/SimaPro, ISO 14040/14044)",
+      "uiux": "JD2 - UI/UX Design Intern (0-1 yr, Figma, user research, prototyping)"
+    },
+    "scoring": "score = skills (0-60) + experience fit (0-25) + education relevance (0-15); experience/education halved when a resume has zero domain-term evidence for that role. See METHODOLOGY.md."
+  },
+  "candidates": [
+    {
+      "id": "r001",
+      "file_name": "anonymized_AA_1793682784144.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "ESG",
+        "Environmental Management",
+        "GHG Accounting",
+        "Impact Assessment",
+        "LCA",
+        "Life Cycle Assessment",
+        "Renewables",
+        "Sustainability",
+        "Waste Management",
+        "openLCA"
+      ],
+      "years_experience": 1.0,
+      "education": [
+        "M.Tech. in Energy and Environmental Engineering",
+        "B.Tech. in Energy and Environmental Engineering",
+        "AEC&RI, Tamil Nadu Agricultural University, Coimbatore, August 2019 – July 2023",
+        "• ESG Masterclass – PROIndia (Webinar)"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Modelling and Optimization of an Intensified Water Electrolysis Integrated Tri-Reforming Coupled Methanol Production Process",
+        "Developed and optimized a methanol production model using Aspen Plus and Python.",
+        "• Recognized with the Best Paper Presentation Award at ICCEAS 2025.",
+        "• Authored a published research article in E3S Web of Conferences."
+      ],
+      "evidence": {
+        "lca": [
+          "• Managed BRSR data analytics and evaluated compliance frameworks related to carbon, plastic, and green credit programs to support corporate sustainability goals.",
+          "• Sustainability and Corporate ESG – Reliance Foundation, under NSDC",
+          "• ISO :2015 – Environmental Management Systems – Alison",
+          "• ESG Masterclass – PROIndia (Webinar)",
+          "Environmental Engineer with one year of industry experience in regulatory compliance, environmental data analysis and Environmental Management Systems (EMS)."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 75.0,
+        "uiux": 16.5
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 48.0,
+          "experience": 12.0,
+          "education": 15.0,
+          "weighted_term_sum": 20,
+          "matched_terms": [
+            "Life Cycle Assessment",
+            "openLCA",
+            "LCA",
+            "GHG Accounting",
+            "Impact Assessment",
+            "Sustainability",
+            "ESG",
+            "Environmental Management",
+            "Waste Management",
+            "Renewables"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 75.0/100 = skills 48.0/60 (matched: Life Cycle Assessment, openLCA, LCA, GHG Accounting, Impact Assessment, Sustainability) + experience 12.0/25 (estimated 1.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 1.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "AA Graduate Engineer Trainee – Environment Experience Graduate Engineer Trainee (GET) – Environment — The Ramco Cements Limited July 2025 – Present • Assisted in environmental compliance and securing statutory clearances (EC, CTE & CTO) for cement plants, mines and quarries covering major and minor minerals. • Participated in surveys and inspections conducted by statutory bodies and third-party ve"
+    },
+    {
+      "id": "r002",
+      "file_name": "anonymized_AA_1793685080195.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Accessibility",
+        "Figma",
+        "Illustrator",
+        "Information Architecture",
+        "Photoshop",
+        "UX",
+        "User Research",
+        "WCAG / Accessibility",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 4.0,
+      "education": [
+        "B.Des in Communication Design"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "Product design & UI/UX — Gluco   December 2025 - January 2026",
+          "• Addressed gaps in diabetic care in self-monitoring blood glucose (SMBG) by combining user research and clinical studies.",
+          "• Created information architecture, wireframes, user flows, and mockups according to WCAG AA accessibility.",
+          "Platforms: Figma, Illustrator, Photoshop, After Effects, Premiere Pro",
+          "Methods: User flows, User Research-to-insight, Wireframing, Mockups, Information architecture, Interface design, Experience design"
+        ]
+      },
+      "scores": {
+        "lca": 14.0,
+        "uiux": 75.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 48.0,
+          "experience": 12.0,
+          "education": 15.0,
+          "weighted_term_sum": 20,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Wireframing",
+            "Wireframes",
+            "Information Architecture",
+            "UX",
+            "Illustrator",
+            "Photoshop",
+            "WCAG / Accessibility",
+            "Accessibility"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 75.0/100 = skills 48.0/60 (matched: Figma, User Research, Wireframing, Wireframes, Information Architecture, UX) + experience 12.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 15.0/15."
+      },
+      "text_preview": "AA Product Designer Experience Product design & UI/UX — Gluco December 2025 - January 2026 • Addressed gaps in diabetic care in self-monitoring blood glucose (SMBG) by combining user research and clinical studies. • Developed a digital product concept that records SMBG tests, conducts AI-driven analysis, and provides insights to increase testing frequency and retention in SMBG users by a projectio"
+    },
+    {
+      "id": "r003",
+      "file_name": "anonymized_AA_1793685080402.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Accessibility",
+        "Figma",
+        "Interaction Design",
+        "Journey Mapping",
+        "Personas",
+        "Prototypes",
+        "UI Design",
+        "UX",
+        "Usability",
+        "Usability Testing",
+        "User Research",
+        "Wireframes"
+      ],
+      "years_experience": 5.0,
+      "education": [
+        "B.Tech Computer Science"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "E-commerce Web Application",
+        "Designed responsive product browsing and checkout experience using modern UI patterns and mobile-first approach.",
+        "• Improved navigation clarity and visual hierarchy through structured layout and reusable UI components.",
+        "Coffee Website UI Design"
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Design Intern — Xellara   Aug 2025 – Jan 2026",
+          "• Designed wireframes, high-fidelity UI screens and interactive prototypes for real product interfaces.",
+          "• Improved interface responsiveness and usability by fixing layout and performance issues.",
+          "Coffee Website UI Design",
+          "Created high-fidelity landing page prototype focusing on branding, typography and user engagement."
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 80.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 12.0,
+          "education": 8.0,
+          "weighted_term_sum": 25,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Usability Testing",
+            "Wireframes",
+            "Prototypes",
+            "Interaction Design",
+            "Journey Mapping",
+            "UX",
+            "UI Design",
+            "Personas",
+            "Usability",
+            "Accessibility"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 5.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 80.0/100 = skills 60.0/60 (matched: Figma, User Research, Usability Testing, Wireframes, Prototypes, Interaction Design) + experience 12.0/25 (estimated 5.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "AA Graphic Designer Experience Graphic Designer — Global Dream Connect Jan 2026 – Present • Designed digital marketing creatives, social media visuals and campaign assets aligned with brand guidelines. • Maintained visual consistency and modern typography to improve user engagement across marketing materials. UI/UX Design Intern — Xellara Aug 2025 – Jan 2026 • Designed wireframes, high-fidelity UI"
+    },
+    {
+      "id": "r004",
+      "file_name": "anonymized_AK_1793682784184.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Circular Economy",
+        "ESG",
+        "Impact Assessment",
+        "LCA",
+        "Life Cycle Assessment",
+        "Personas",
+        "Sustainability",
+        "Waste Management"
+      ],
+      "years_experience": 8.0,
+      "education": [],
+      "projects": [
+        "Associate (UNDP - supported) — IIT Tirupati   Dec 2023 – Mar 2025",
+        "• Conducted policy and legal assessments on air pollution and public health using UNDP methodology.",
+        "• Designed an interactive Pollution Data Dashboard (Python, Pandas, Excel, Power BI).",
+        "• Contributed to UNDP national reports on air quality governance and sustainability data analytics.",
+        "Research Fellow — IIT Tirupati   Dec 2022 – Dec 2023"
+      ],
+      "evidence": {
+        "lca": [
+          "• Collected, validated, and analysed operational and environmental data to support sustainability initiatives, compliance reporting, and regulatory submissions.",
+          "• Strengthened data handling and analytical skills using Excel and SQL for ESG reporting applications.",
+          "• Contributed to UNDP national reports on air quality governance and sustainability data analytics.",
+          "• Collected, validated, and analysed activity data, emission factors, and environmental datasets from scientific literature, regulatory databases, and field surveys to support sustainability and air quality studies.",
+          "• Conducted environmental data validation, quality assessment, and literature reviews to support policy analysis, sustainability research, and national-level environmental projects."
+        ],
+        "uiux": [
+          "• Developed a responsive personal portfolio website using HTML, CSS, and JavaScript."
+        ]
+      },
+      "scores": {
+        "lca": 76.0,
+        "uiux": 29.4
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 36.0,
+          "experience": 25.0,
+          "education": 15.0,
+          "weighted_term_sum": 15,
+          "matched_terms": [
+            "Life Cycle Assessment",
+            "LCA",
+            "Impact Assessment",
+            "Circular Economy",
+            "Sustainability",
+            "ESG",
+            "Waste Management"
+          ]
+        },
+        "uiux": {
+          "skills": 2.4,
+          "experience": 12.0,
+          "education": 15.0,
+          "weighted_term_sum": 1,
+          "matched_terms": [
+            "Personas"
+          ]
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 76.0/100 = skills 36.0/60 (matched: Life Cycle Assessment, LCA, Impact Assessment, Circular Economy, Sustainability, ESG) + experience 25.0/25 (estimated 8.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 29.4/100 = skills 2.4/60 (matched: Personas) + experience 12.0/25 (estimated 8.0 yrs vs target 0-1 years (internship level)) + education 15.0/15."
+      },
+      "text_preview": "AK Executive – Environmental Health and Safety Experience Executive – Environmental Health and Safety — Zigma Global Enviro Solutions Pvt. Ltd. Oct 2025 – Present • Managed landfill operations, waste preprocessing, leachate management, and bioculture applications in compliance with SWM Rules, e Management Guidelines, 2019. • Supervised laboratory operations, analysed environmental test results, an"
+    },
+    {
+      "id": "r005",
+      "file_name": "anonymized_AL_1793685080183.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Adobe XD",
+        "Design Thinking",
+        "Figma",
+        "Framer",
+        "Interaction Design",
+        "Photoshop",
+        "Prototypes",
+        "Prototyping",
+        "UX",
+        "Usability",
+        "Usability Testing",
+        "User Experience (UX)",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 9.0,
+      "education": [
+        "B.Tech in Computer Science"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Freelance Design Impact",
+        "Completed 17+ design projects with a consistent client rating.",
+        "• Delivered user-focused design solutions and maintained strong client satisfaction.",
+        "Hackathon Participation"
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "UI/UX Designer for Technical Event — TANTRA Design, FISAT, Ernakulam   Dec 2025 - Feb 2026",
+          "• Identified fragmented navigation and poor information hierarchy in the existing interface, designed structured user flows and wireframes in Figma, resulting in improved content discoverability and reduced user confusio",
+          "• Initiated usability improvements by redesigning cluttered screens into clean, minimal interfaces using grid systems, spacing, and alignment, enhancing readability and user engagement.",
+          "• Designed interactive prototypes and iterated based on feedback, improving usability and delivering a seamless, responsive experience across devices."
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 80.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 12.0,
+          "education": 8.0,
+          "weighted_term_sum": 32,
+          "matched_terms": [
+            "Figma",
+            "Adobe XD",
+            "Usability Testing",
+            "Wireframing",
+            "Prototyping",
+            "User Experience (UX)",
+            "Framer",
+            "Wireframes",
+            "Prototypes",
+            "Interaction Design",
+            "UX",
+            "Photoshop",
+            "Usability",
+            "Design Thinking"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 9.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 80.0/100 = skills 60.0/60 (matched: Figma, Adobe XD, Usability Testing, Wireframing, Prototyping, User Experience (UX)) + experience 12.0/25 (estimated 9.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "AL UI/UX Designer Experience UI/UX Designer for Technical Event — TANTRA Design, FISAT, Ernakulam Dec 2025 - Feb 2026 • Identified fragmented navigation and poor information hierarchy in the existing interface, designed structured user flows and wireframes in Figma, resulting in improved content discoverability and reduced user confusion. • Analysed user pain points in event registration and sched"
+    },
+    {
+      "id": "r006",
+      "file_name": "anonymized_AN_1793685080356.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Accessibility",
+        "Figma",
+        "Framer",
+        "Interaction Design",
+        "Prototypes",
+        "Prototyping",
+        "Responsive Design",
+        "UX",
+        "Usability",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 5.0,
+      "education": [
+        "Web application for Educational Institution",
+        "Bachelor of Engineering (B.E) in Information Science and Engineering"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Web application for Educational Institution",
+        "Designed UI for dashboards, forms, and navigation and developed responsive frontend using React.",
+        "• Improved user flow and accessibility.",
+        "• Integrated APIs for dynamic content."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer and Frontend Developer",
+          "UI/UX Designer and Frontend Developer — Dvika NextGen Tech Solutions   March 2026 – Present",
+          "• Designed UI screens and user flows for web applications and created wireframes and prototypes using Penpot.",
+          "• Developed responsive UI components using React and improved navigation, layout, and overall usability.",
+          "• Improved user flow and accessibility."
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 75.2
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 55.2,
+          "experience": 12.0,
+          "education": 8.0,
+          "weighted_term_sum": 23,
+          "matched_terms": [
+            "Figma",
+            "Wireframing",
+            "Prototyping",
+            "Framer",
+            "Wireframes",
+            "Prototypes",
+            "Interaction Design",
+            "UX",
+            "Usability",
+            "Accessibility",
+            "Responsive Design"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 5.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 75.2/100 = skills 55.2/60 (matched: Figma, Wireframing, Prototyping, Framer, Wireframes, Prototypes) + experience 12.0/25 (estimated 5.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "AN UI/UX Designer and Frontend Developer Experience UI/UX Designer and Frontend Developer — Dvika NextGen Tech Solutions March 2026 – Present • Designed UI screens and user flows for web applications and created wireframes and prototypes using Penpot. • Developed responsive UI components using React and improved navigation, layout, and overall usability. • Collaborated with developers for accurate"
+    },
+    {
+      "id": "r007",
+      "file_name": "anonymized_APS_1793685080222.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Adobe XD",
+        "Figma",
+        "Illustrator",
+        "Interaction Design",
+        "Photoshop",
+        "Prototyping",
+        "Sustainability",
+        "UI Design",
+        "UX",
+        "Usability",
+        "User Experience (UX)",
+        "User Research",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "Master of Design",
+        "Bachelor of Arts in Journalism and Mass Communication"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Multisensory Music Experiences",
+        "Exploring multisensory music experiences for hard-of-hearing users through adaptive audio, haptic feedback, and visual rhythm interfaces.",
+        "• Integrated user research, interaction design, and high-fidelity prototyping.",
+        "Career Transition Platform for Veterans"
+      ],
+      "evidence": {
+        "lca": [
+          "Sustainability-focused SaaS Dashboard"
+        ],
+        "uiux": [
+          "• Designed and developed a responsive website and landing page, improving overall user experience.",
+          "UI Designer & Graphic Designer — Brandygold Tech Private Limited   July 2022 – July 2024",
+          "• Designed responsive websites, mobile app interfaces, and high-fidelity wireframes using Figma and Adobe Photoshop.",
+          "• Collaborated with developers and clients to ensure usability, visual consistency, and brand alignment.",
+          "• Created complete brand identity systems, including logos, packaging, and promotional assets using Adobe Illustrator and Photoshop."
+        ]
+      },
+      "scores": {
+        "lca": 7.8,
+        "uiux": 95.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 4.8,
+          "experience": 0.0,
+          "education": 3.0,
+          "weighted_term_sum": 2,
+          "matched_terms": [
+            "Sustainability"
+          ]
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 20.0,
+          "education": 15.0,
+          "weighted_term_sum": 30,
+          "matched_terms": [
+            "Figma",
+            "Adobe XD",
+            "User Research",
+            "Wireframing",
+            "Prototyping",
+            "User Experience (UX)",
+            "Wireframes",
+            "Interaction Design",
+            "UX",
+            "UI Design",
+            "Illustrator",
+            "Photoshop",
+            "Usability"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 7.8/100 = skills 4.8/60 (matched: Sustainability) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 3.0/15.",
+        "uiux": "UI-UX score 95.0/100 = skills 60.0/60 (matched: Figma, Adobe XD, User Research, Wireframing, Prototyping, User Experience (UX)) + experience 20.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 15.0/15."
+      },
+      "text_preview": "APS Product Design Intern Experience Product Design Intern — Growth Operator.AI June 2025 – August 2025 • Designed and developed a responsive website and landing page, improving overall user experience. • Created a cohesive digital brand identity and designed social media creatives for brand engagement. • Explored and integrated AI-based tools to enhance content creation across image, video, and v"
+    },
+    {
+      "id": "r008",
+      "file_name": "anonymized_AR_1793685080207.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Design Systems",
+        "Figma",
+        "Framer",
+        "Interaction Design",
+        "Personas",
+        "Prototyping",
+        "Responsive Design",
+        "UI Design",
+        "UX",
+        "Usability",
+        "User Experience (UX)",
+        "Visual Design",
+        "Wireframing"
+      ],
+      "years_experience": 4.0,
+      "education": [
+        "Bachelor of Technology (B.Tech) in Computer Science & Information Technology"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Multi-Brand Campaign Platform",
+        "Designed a mobile platform enabling brands to create and manage creator campaigns and community engagement.",
+        "• Developed reusable UI patterns adapted for Spotify, Nike, and Starbucks while maintaining each brand's visual identity.",
+        "• Designed authentication flows, campaign interfaces, and supporting marketing assets with a focus on usability and visual consistency."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX & Visual Designer",
+          "UI/UX Design Collaboration — Nyx UI   null",
+          "• Contributed to the UI design of a modern developer-focused component library.",
+          "• Designed landing page layouts and interface concepts in Figma.",
+          "• Designed authentication flows, campaign interfaces, and supporting marketing assets with a focus on usability and visual consistency."
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 80.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 12.0,
+          "education": 8.0,
+          "weighted_term_sum": 29,
+          "matched_terms": [
+            "Figma",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "User Experience (UX)",
+            "Framer",
+            "Interaction Design",
+            "Visual Design",
+            "UX",
+            "UI Design",
+            "Personas",
+            "Usability",
+            "Responsive Design"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 80.0/100 = skills 60.0/60 (matched: Figma, Design Systems, Wireframing, Prototyping, User Experience (UX), Framer) + experience 12.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "AR UI/UX & Visual Designer Experience UI/UX Design Collaboration — Nyx UI null • Contributed to the UI design of a modern developer-focused component library. • Designed the visual identity and logo for Nyx UI. • Designed landing page layouts and interface concepts in Figma. • Improved visual hierarchy, navigation clarity, and component presentation. • Ensured visual consistency through thoughtful"
+    },
+    {
+      "id": "r009",
+      "file_name": "anonymized_AS_1793685080379.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Accessibility",
+        "Design Systems",
+        "FigJam",
+        "Figma",
+        "Framer",
+        "Heuristic Evaluation",
+        "Information Architecture",
+        "Interaction Design",
+        "UX",
+        "Usability",
+        "User Research"
+      ],
+      "years_experience": 14.0,
+      "education": [
+        "Bachelor’s Degree"
+      ],
+      "projects": [
+        "Management Intern — Excelerate   Mar ’25 – Apr ’25",
+        "• Led a global cross-functional team of 6+ members (US, Africa, Asia) to execute a high-stakes virtual event, ensuring 100% timeline adherence via Agile sprint planning and Gantt charts.",
+        "/ Deliverables",
+        "Finnov´ o",
+        "Redesigned high-compliance KYC flows for Gen-Z wealth management."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "• Owned end-to-end UX strategy and shipped production designs for an AI-native simulation engine, transforming complex LLM outputs into structured analytics for real-world users.",
+          "• Led UX strategy for Aeron, architecting a first-of-its-kind AR 'Virtual Try-On' feature;",
+          "• Architected the UX for Finnov´ o, a Gen-Z fintech platform;",
+          "• Engineered a scalable Design System, establishing a unified library of 50+ reusable components and typography scales to accelerate front-end development cycles.",
+          "UI/UX Design Intern — Internship Studio   Apr ’25 – Jun ’25"
+        ]
+      },
+      "scores": {
+        "lca": 14.0,
+        "uiux": 67.8
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 52.8,
+          "experience": 12.0,
+          "education": 3.0,
+          "weighted_term_sum": 22,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Design Systems",
+            "Framer",
+            "Interaction Design",
+            "Information Architecture",
+            "UX",
+            "FigJam",
+            "Usability",
+            "Heuristic Evaluation",
+            "Accessibility"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 14.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 67.8/100 = skills 52.8/60 (matched: Figma, User Research, Design Systems, Framer, Interaction Design, Information Architecture) + experience 12.0/25 (estimated 14.0 yrs vs target 0-1 years (internship level)) + education 3.0/15."
+      },
+      "text_preview": "AS Product Designer Experience Product Designer — Lemmino Sep ’25 – Dec ’25 • Owned end-to-end UX strategy and shipped production designs for an AI-native simulation engine, transforming complex LLM outputs into structured analytics for real-world users. • Optimized information density by architecting a hierarchy based on progressive disclosure, allowing users to navigate seamlessly from performan"
+    },
+    {
+      "id": "r010",
+      "file_name": "anonymized_AY_1793685080440.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Accessibility",
+        "Design Systems",
+        "FigJam",
+        "Figma",
+        "Information Architecture",
+        "Journey Mapping",
+        "Miro",
+        "Personas",
+        "Prototypes",
+        "UI Design",
+        "UX",
+        "Usability",
+        "Usability Testing",
+        "User Research",
+        "WCAG / Accessibility",
+        "Wireframes"
+      ],
+      "years_experience": 4.0,
+      "education": [
+        "Bachelor of Design"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "AR Appliance Assistance Platform",
+        "AR experience for appliance installation and troubleshooting.",
+        "Hire – Skilled & Unskilled Worker Hiring Platform",
+        "End-to-end hiring platform with research, IA, personas, usability testing, and UI system."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UX/UI Designer",
+          "UX Design Intern — Habitat Developers & Consultants   8 Months",
+          "• Conducted user research for users aged 28–80.",
+          "• Improved information architecture and navigation.",
+          "• Created wireframes, high-fidelity UI, and prototypes in Figma."
+        ]
+      },
+      "scores": {
+        "lca": 14.0,
+        "uiux": 87.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 12.0,
+          "education": 15.0,
+          "weighted_term_sum": 31,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Usability Testing",
+            "Design Systems",
+            "Wireframes",
+            "Prototypes",
+            "Journey Mapping",
+            "Information Architecture",
+            "UX",
+            "UI Design",
+            "Miro",
+            "FigJam",
+            "Personas",
+            "Usability",
+            "WCAG / Accessibility",
+            "Accessibility"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 87.0/100 = skills 60.0/60 (matched: Figma, User Research, Usability Testing, Design Systems, Wireframes, Prototypes) + experience 12.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 15.0/15."
+      },
+      "text_preview": "AY UX/UI Designer Experience UX Design Intern — Habitat Developers & Consultants 8 Months • Conducted user research for users aged 28–80. • Improved information architecture and navigation. • Redesigned user journeys and interface layouts. • Created wireframes, high-fidelity UI, and prototypes in Figma. • Collaborated with stakeholders and iterated using usability feedback. Projects / Deliverables"
+    },
+    {
+      "id": "r011",
+      "file_name": "anonymized_BA_1793682784206.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [],
+      "years_experience": 7.0,
+      "education": [
+        "• Leverage SAP to verify material BOM structures and vendor master records.",
+        "Master of Business Administration (MBA)",
+        "Kalasalingam Academy of Research and Education, 2025 – 2027",
+        "Bachelor of Science in Chemistry"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 10.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 6.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "neither-uncertain",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 7.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 10.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 6.0/25 (estimated 7.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "BA Product Compliance Engineer Experience Product Compliance Engineer — Tata Consultancy Services (TCS) Aug 2024 – Present • Own end-to-end environmental compliance analysis for automotive components against RoHS 2, RoHS 3, China RoHS, REACH, California Prop 65, POP, WEEE, and ELV regulations, ensuring 100% on-time regulatory reporting. • Create, request, and analyze IMDS records; build and restru"
+    },
+    {
+      "id": "r012",
+      "file_name": "anonymized_BS_1793685080461.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Design Systems",
+        "Figma",
+        "Framer",
+        "Prototyping",
+        "UX",
+        "User Research",
+        "Wireframing"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "• Designed and implemented 20+ core web interfaces across the primary Techlanz corporate website and a newly launched educational platform module.",
+        "Bachelor of Design, Specializing in UI / UX"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Design Intern — Beeyond Tech   Jan 2026 - Apr 2026",
+          "• Led end-to-end UX design for the Orbit Living property management app, optimizing platform navigation for 15,000+ users.",
+          "Bachelor of Design, Specializing in UI / UX",
+          "Platforms: Figma, HTML, CSS, Blender, Spline, Midjourney, RunwayML, Meshy, Adobe Creative Suite, DaVinci Resolve, Framer, Stable Diffusion",
+          "Methods: UI/UX & Prototyping, User Research & Testing, Design Systems, Wireframing"
+        ]
+      },
+      "scores": {
+        "lca": 1.5,
+        "uiux": 83.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 0.0,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 48.0,
+          "experience": 20.0,
+          "education": 15.0,
+          "weighted_term_sum": 20,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "Framer",
+            "UX"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 1.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 83.0/100 = skills 48.0/60 (matched: Figma, User Research, Design Systems, Wireframing, Prototyping, Framer) + experience 20.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 15.0/15."
+      },
+      "text_preview": "BS AI-First Product Designer Experience AI-First Product Designer — TechUp Labs Jun 2026 - Present Founder & Product Design Consultant — Better Human Experience Jun 2023 - May 2026 • Managed product design for 25+ brands (including Wacom and Armatrix) delivering scalable solutions representing over ₹2,50,000+ in project value. • Designed high-fidelity 3D motion graphics (Blender, Spline) and AI ge"
+    },
+    {
+      "id": "r013",
+      "file_name": "anonymized_CG_1793685080278.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "A/B Testing",
+        "Accessibility",
+        "Design Systems",
+        "FigJam",
+        "Figma",
+        "Heuristic Evaluation",
+        "Information Architecture",
+        "Interaction Design",
+        "Miro",
+        "Photoshop",
+        "Prototypes",
+        "Prototyping",
+        "UX",
+        "Usability",
+        "Usability Testing",
+        "User Experience (UX)",
+        "User Research",
+        "Visual Design",
+        "WCAG / Accessibility",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "B.Tech in Electronics Communication Engineering"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "CareAxis – Smart Healthcare Platform",
+        "Led design of a mobile-first healthcare app using Figma to prototype and validate flows.",
+        "• Reduced booking flow from ion.",
+        "• Applied Information Architecture and visual hierarchy to improve findability and task completion."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "UI/UX Design Intern — Sponzo   Mar 2026 – Jun 2026",
+          "• Created user flows, wireframes, and interactive prototypes to validate journeys and reduce rework during development.",
+          "• Built a design system with components, design tokens, and Auto Layout to accelerate UI consistency across products.",
+          "• Conducted usability testing and heuristic evaluations to identify friction, and iterated designs to improve task success."
+        ]
+      },
+      "scores": {
+        "lca": 4.0,
+        "uiux": 88.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 0.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 20.0,
+          "education": 8.0,
+          "weighted_term_sum": 42,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Usability Testing",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "User Experience (UX)",
+            "Wireframes",
+            "Prototypes",
+            "Interaction Design",
+            "Visual Design",
+            "Information Architecture",
+            "UX",
+            "Miro",
+            "FigJam",
+            "Photoshop",
+            "Usability",
+            "Heuristic Evaluation",
+            "A/B Testing",
+            "WCAG / Accessibility",
+            "Accessibility"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 4.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 88.0/100 = skills 60.0/60 (matched: Figma, User Research, Usability Testing, Design Systems, Wireframing, Prototyping) + experience 20.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "CG UI/UX Designer Experience UI/UX Design Intern — Sponzo Mar 2026 – Jun 2026 • Designed 30+ high-fidelity screens for a creator-brand platform, improving visual consistency and handoff readiness. • Created user flows, wireframes, and interactive prototypes to validate journeys and reduce rework during development. • Built a design system with components, design tokens, and Auto Layout to accelera"
+    },
+    {
+      "id": "r014",
+      "file_name": "anonymized_CM_1793685080412.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Accessibility",
+        "Design Systems",
+        "Design Thinking",
+        "Figma",
+        "Information Architecture",
+        "Prototyping",
+        "UX",
+        "Visual Design",
+        "Wireframing"
+      ],
+      "years_experience": 4.0,
+      "education": [
+        "Bachelor of Technology (B.Tech)"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "TravelCare — Healthcare Access App for Solo Travellers & Backpackers",
+        "Designed an app helping solo travellers and backpackers find verified doctors, pharmacies, and clinics.",
+        "• Mapped and designed complete user flows: onboarding, location-based search, price/clinic comparison, appointment booking & confirmation, in-clinic and video consultations, e-prescriptions, health records, and payments.",
+        "• Built a reusable, component-based design system in Figma to keep the interface clear and consistent, prioritizing accessibility for users."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "• Built a reusable, component-based design system in Figma to keep the interface clear and consistent, prioritizing accessibility for users.",
+          "• Applied information architecture and trust-building visual design to help users make fast, confident healthcare decisions.",
+          "• Built a full editorial design system across multiple content types with consistent typography and color.",
+          "Fresher UI/UX Designer with a strong foundation in visual design and user-centered thinking, focused on designing for real-world contexts."
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 65.4
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 50.4,
+          "experience": 12.0,
+          "education": 3.0,
+          "weighted_term_sum": 21,
+          "matched_terms": [
+            "Figma",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "Visual Design",
+            "Information Architecture",
+            "UX",
+            "Accessibility",
+            "Design Thinking"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 65.4/100 = skills 50.4/60 (matched: Figma, Design Systems, Wireframing, Prototyping, Visual Design, Information Architecture) + experience 12.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 3.0/15."
+      },
+      "text_preview": "CM UI/UX Designer Projects / Deliverables TravelCare — Healthcare Access App for Solo Travellers & Backpackers Designed an app helping solo travellers and backpackers find verified doctors, pharmacies, and clinics. • Mapped and designed complete user flows: onboarding, location-based search, price/clinic comparison, appointment booking & confirmation, in-clinic and video consultations, e-prescript"
+    },
+    {
+      "id": "r015",
+      "file_name": "anonymized_DP_1793685080247.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Design Systems",
+        "FigJam",
+        "Figma",
+        "Miro",
+        "Prototyping",
+        "Sketch",
+        "UX",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 1.0,
+      "education": [
+        "B.Tech Computer Science"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "• Manage design projects independently, integrating AI tools (Claude Code, Cursor) across research synthesis, ideation, and rapid prototyping.",
+          "• Build speculative case studies covering wireframes, user flows, and high-fidelity designs, sharpening cross-platform design instincts for fast-paced product environments.",
+          "• Owned end-to-end UI/UX design across 10+ platform pages, independently managing design tasks and meeting agreed timelines within a remote agile squad.",
+          "• Built a scalable Figma design system and style guide with reusable components, ensuring consistency across web and mobile.",
+          "UX Designer — Culture Care Collective   Apr 2024 – Jul 2024"
+        ]
+      },
+      "scores": {
+        "lca": 10.0,
+        "uiux": 83.4
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 6.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 50.4,
+          "experience": 25.0,
+          "education": 8.0,
+          "weighted_term_sum": 21,
+          "matched_terms": [
+            "Figma",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "Sketch",
+            "Wireframes",
+            "UX",
+            "Miro",
+            "FigJam"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 10.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 6.0/25 (estimated 1.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 83.4/100 = skills 50.4/60 (matched: Figma, Design Systems, Wireframing, Prototyping, Sketch, Wireframes) + experience 25.0/25 (estimated 1.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "DP Product Designer Experience Product Designer — Self-directed design practice Oct 2025 – Present • Manage design projects independently, integrating AI tools (Claude Code, Cursor) across research synthesis, ideation, and rapid prototyping. • Build speculative case studies covering wireframes, user flows, and high-fidelity designs, sharpening cross-platform design instincts for fast-paced product"
+    },
+    {
+      "id": "r016",
+      "file_name": "anonymized_DS_1793685080257.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Design Systems",
+        "Figma",
+        "Framer",
+        "Illustrator",
+        "Interaction Design",
+        "Personas",
+        "Photoshop",
+        "Prototyping",
+        "UX",
+        "Usability",
+        "Usability Testing",
+        "Wireframing"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "Master of Design",
+        "Bachelor of Arts in Multimedia and Mass Communication",
+        "University of Mumbai, Jul 2020 - Jun 2023"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "SETU | Robotic Manufacturing Desktop Software",
+        "Designed a desktop interface for Robotic Additive Manufacturing, simplifying complex workflows across project setup, process configuration, simulation, and system monitoring through structured navigation.",
+        "EduPulse | AI-Assisted Learning App",
+        "Designed 20+ mobile screens for NEET aspirants, combining personalized study plans, progress tracking, and AI-assisted learning to support structured daily preparation."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "UI/UX Design Intern — Go3D Innovation LLP   Dec 2025 - April 2026",
+          "UI/UX Design Intern — Skilled Sapiens   Jun 2025 - Jul 2025",
+          "• Designed an AI-assisted NEET preparation app, brand identities, and eBooks, contributing across UI/UX design, branding, and digital content design.",
+          "Designed 20+ mobile screens for NEET aspirants, combining personalized study plans, progress tracking, and AI-assisted learning to support structured daily preparation."
+        ]
+      },
+      "scores": {
+        "lca": 1.5,
+        "uiux": 95.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 0.0,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 20.0,
+          "education": 15.0,
+          "weighted_term_sum": 26,
+          "matched_terms": [
+            "Figma",
+            "Usability Testing",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "Framer",
+            "Interaction Design",
+            "UX",
+            "Illustrator",
+            "Photoshop",
+            "Personas",
+            "Usability"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 1.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 95.0/100 = skills 60.0/60 (matched: Figma, Usability Testing, Design Systems, Wireframing, Prototyping, Framer) + experience 20.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 15.0/15."
+      },
+      "text_preview": "DS UI/UX Designer Experience UI/UX Design Intern — Go3D Innovation LLP Dec 2025 - April 2026 • Designed a desktop software interface for robotic additive manufacturing, simplifying workflows through intuitive navigation and clear data visualization to improve clarity. UI/UX Design Intern — Skilled Sapiens Jun 2025 - Jul 2025 • Designed an AI-assisted NEET preparation app, brand identities, and eBo"
+    },
+    {
+      "id": "r017",
+      "file_name": "anonymized_DVJ_1793685080268.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Accessibility",
+        "Design Systems",
+        "Figma",
+        "Heuristic Evaluation",
+        "Information Architecture",
+        "Prototypes",
+        "Prototyping",
+        "UI Design",
+        "UX",
+        "Usability",
+        "Usability Testing",
+        "User Research",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 4.0,
+      "education": [
+        "Bachelor of Engineering in Computer Science and Design"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Frontend UI/UX",
+        "Designed a modern AI-powered SaaS dashboard featuring reports, analytics, AI agents, and workflow management.",
+        "• Created high-fidelity, responsive interfaces in Figma with reusable components, design systems, and micro-interactions.",
+        "• Developed intuitive reporting experiences using KPI cards, data visualizations, and streamlined information architecture."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "UI/UX Design Intern — Adobe Krutantics   Jun 2026 - Sep 2026",
+          "Frontend UI/UX Designer — Rooman Technology Pvt.",
+          "• Conducted user research and developed wireframes, user flows, and high-fidelity prototypes for web and mobile applications.",
+          "• Created responsive UI designs, design systems, and interactive prototypes using Figma."
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 87.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 12.0,
+          "education": 15.0,
+          "weighted_term_sum": 32,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Usability Testing",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "Wireframes",
+            "Prototypes",
+            "Information Architecture",
+            "UX",
+            "UI Design",
+            "Usability",
+            "Heuristic Evaluation",
+            "Accessibility"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 87.0/100 = skills 60.0/60 (matched: Figma, User Research, Usability Testing, Design Systems, Wireframing, Prototyping) + experience 12.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 15.0/15."
+      },
+      "text_preview": "DVJ UI/UX Designer Experience UI/UX Design Intern — Adobe Krutantics Jun 2026 - Sep 2026 Frontend UI/UX Designer — Rooman Technology Pvt. Ltd Feb 2026 - May 2026 • Conducted user research and developed wireframes, user flows, and high-fidelity prototypes for web and mobile applications. • Created responsive UI designs, design systems, and interactive prototypes using Figma. • Applied UX principles"
+    },
+    {
+      "id": "r018",
+      "file_name": "anonymized_FK_1793685080451.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "A/B Testing",
+        "Design Systems",
+        "Figma",
+        "Framer",
+        "Illustrator",
+        "Information Architecture",
+        "Interaction Design",
+        "Journey Mapping",
+        "Photoshop",
+        "Prototypes",
+        "Prototyping",
+        "UI Design",
+        "UX",
+        "Usability",
+        "User Experience (UX)",
+        "Wireframing"
+      ],
+      "years_experience": 1.0,
+      "education": [
+        "Bachelor’s in Business Administration"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "Graphic/UI Designer — DB Vertex Technology   Dec 2025 - Present",
+          "• Designed website and mobile app UI for multiple client projects, focusing on usability, clean layouts, and modern design standards.",
+          "UI/UX Designer (Internships) — Engineer Sahab   Jun 2025 - Dec 2026",
+          "• Designed end-to-end user experience for financial products across mobile and web platforms, focusing on intuitive navigation and clean UI."
+        ]
+      },
+      "scores": {
+        "lca": 7.5,
+        "uiux": 88.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 6.0,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 25.0,
+          "education": 3.0,
+          "weighted_term_sum": 34,
+          "matched_terms": [
+            "Figma",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "User Experience (UX)",
+            "Framer",
+            "Prototypes",
+            "Interaction Design",
+            "Journey Mapping",
+            "Information Architecture",
+            "UX",
+            "UI Design",
+            "Illustrator",
+            "Photoshop",
+            "Usability",
+            "A/B Testing"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 7.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 6.0/25 (estimated 1.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 88.0/100 = skills 60.0/60 (matched: Figma, Design Systems, Wireframing, Prototyping, User Experience (UX), Framer) + experience 25.0/25 (estimated 1.0 yrs vs target 0-1 years (internship level)) + education 3.0/15."
+      },
+      "text_preview": "FK UI/UX Designer Experience Graphic/UI Designer — DB Vertex Technology Dec 2025 - Present • Designed website and mobile app UI for multiple client projects, focusing on usability, clean layouts, and modern design standards. • Developed branding and marketing materials including logos, packaging, brochures, and flyers that aligned with each client's visual identity. • Created social media creative"
+    },
+    {
+      "id": "r019",
+      "file_name": "anonymized_FT_1793685080301.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Design Systems",
+        "Figma",
+        "Information Architecture",
+        "Interaction Design",
+        "Prototyping",
+        "UX",
+        "Usability",
+        "Visual Design",
+        "Wireframing"
+      ],
+      "years_experience": 4.0,
+      "education": [
+        "B.Tech in Artificial Intelligence & Machine Learning"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UX Audit Consultant — Flow   Dec 2025 - May 2026",
+          "• Conducted UX audits for SaaS products to identify usability issues and friction across onboarding and user journeys.",
+          "• Simplified complex workflows using progressive disclosure, clear navigation, and behavioral UX principles.",
+          "• Redesigned the information architecture of a public transit app to reduce navigation and cognitive load during bus selection.",
+          "• Demonstrated how structural information architecture improvements can improve usability without changing the existing visual design."
+        ]
+      },
+      "scores": {
+        "lca": 14.0,
+        "uiux": 67.8
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 52.8,
+          "experience": 12.0,
+          "education": 3.0,
+          "weighted_term_sum": 22,
+          "matched_terms": [
+            "Figma",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "Interaction Design",
+            "Visual Design",
+            "Information Architecture",
+            "UX",
+            "Usability"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 67.8/100 = skills 52.8/60 (matched: Figma, Design Systems, Wireframing, Prototyping, Interaction Design, Visual Design) + experience 12.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 3.0/15."
+      },
+      "text_preview": "FT Product Designer & Design Engineer Experience UX Audit Consultant — Flow Dec 2025 - May 2026 • Conducted UX audits for SaaS products to identify usability issues and friction across onboarding and user journeys. • Delivered product recommendations focused on activation, navigation, and workflow clarity. • Worked on real client products through structured product analysis and design recommendati"
+    },
+    {
+      "id": "r020",
+      "file_name": "anonymized_HD_1793682784275.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Carbon Footprint",
+        "ESG",
+        "Environmental Management",
+        "GHG Accounting",
+        "LCA",
+        "Scope 3 Emissions",
+        "Sustainability"
+      ],
+      "years_experience": 17.0,
+      "education": [
+        "B.E. – Environmental Engineering",
+        "• Diploma In Project Management",
+        "• Diploma in Environmental Quality Monitoring and Analysis",
+        "• Advance Diploma in Wastewater Treatment and Recycling"
+      ],
+      "projects": [
+        "Coordinator – ESG Advisory",
+        "Experience",
+        "Coordinator – ESG Advisory — NEPRA Environmental Solutions and Technologies Pvt.Ltd.   Mar 2025 – Present",
+        "• Coordinated end-to-end delivery of advisory projects for enterprise clients — managing timelines, stakeholder communications and quality control documentation throughout the project lifecycle.",
+        "• Sourced, validated, and consolidated GHG activity data across Scope 1, 2, and 3 categories; performed emission factor mapping and calculation validation to ensure accuracy and completeness across reporting periods."
+      ],
+      "evidence": {
+        "lca": [
+          "Project Coordinator – ESG Advisory",
+          "Project Coordinator – ESG Advisory — NEPRA Environmental Solutions and Technologies Pvt.Ltd.",
+          "• Sourced, validated, and consolidated GHG activity data across Scope 1, 2, and 3 categories;",
+          "• Led the build of a CBAM reporting module within the in-house SaaS ESG platform — covering requirement gathering, embedded emission calculation logic, validation workflows, and dashboard development.",
+          "• Provided functional support in the development and optimisation of ESG Konnect — validating data logic, testing automated carbon calculation pipelines, and coordinating UAT with clients."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 73.6,
+        "uiux": 10.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 33.6,
+          "experience": 25.0,
+          "education": 15.0,
+          "weighted_term_sum": 14,
+          "matched_terms": [
+            "LCA",
+            "Carbon Footprint",
+            "GHG Accounting",
+            "Scope 3 Emissions",
+            "Sustainability",
+            "ESG",
+            "Environmental Management"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 6.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 73.6/100 = skills 33.6/60 (matched: LCA, Carbon Footprint, GHG Accounting, Scope 3 Emissions, Sustainability, ESG) + experience 25.0/25 (estimated 17.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 10.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 6.0/25 (estimated 17.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "HD Project Coordinator – ESG Advisory Experience Project Coordinator – ESG Advisory — NEPRA Environmental Solutions and Technologies Pvt.Ltd. Mar 2025 – Present • Coordinated end-to-end delivery of advisory projects for enterprise clients — managing timelines, stakeholder communications and quality control documentation throughout the project lifecycle. • Sourced, validated, and consolidated GHG a"
+    },
+    {
+      "id": "r021",
+      "file_name": "anonymized_HM_1793682784257.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Impact Assessment",
+        "LCA",
+        "Life Cycle Assessment",
+        "SimaPro",
+        "Sustainability",
+        "Usability"
+      ],
+      "years_experience": 11.0,
+      "education": [],
+      "projects": [
+        "/ Deliverables",
+        "Fabrication of Dual Mode Scooty",
+        "Designed and developed a dual-mode scooty capable of operating on both petrol and electric power modes.",
+        "• Integrated an internal combustion engine with an electric motor to enable flexible mode switching based on requirement.",
+        "• Allowed seamless transition between modes, improving usability in different driving conditions."
+      ],
+      "evidence": {
+        "lca": [
+          "LCA Analyst",
+          "LCA Analyst — L&T Technology Services   Dec 2022 – Present",
+          "• Conducted Life Cycle Assessments (LCA) to evaluate Scope s ensuring compliance with ISO /s.",
+          "developed product models in LCA tools for impact assessment.",
+          "• Published Product Environmental Profile (PEP) and generated Life Cycle Assessment (LCA) Reports in adherence to PCR rules and ISO /s."
+        ],
+        "uiux": [
+          "• Allowed seamless transition between modes, improving usability in different driving conditions."
+        ]
+      },
+      "scores": {
+        "lca": 76.0,
+        "uiux": 29.4
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 36.0,
+          "experience": 25.0,
+          "education": 15.0,
+          "weighted_term_sum": 15,
+          "matched_terms": [
+            "SimaPro",
+            "Life Cycle Assessment",
+            "LCA",
+            "Impact Assessment",
+            "Sustainability"
+          ]
+        },
+        "uiux": {
+          "skills": 2.4,
+          "experience": 12.0,
+          "education": 15.0,
+          "weighted_term_sum": 1,
+          "matched_terms": [
+            "Usability"
+          ]
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 76.0/100 = skills 36.0/60 (matched: SimaPro, Life Cycle Assessment, LCA, Impact Assessment, Sustainability) + experience 25.0/25 (estimated 11.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 29.4/100 = skills 2.4/60 (matched: Usability) + experience 12.0/25 (estimated 11.0 yrs vs target 0-1 years (internship level)) + education 15.0/15."
+      },
+      "text_preview": "HM LCA Analyst Experience LCA Analyst — L&T Technology Services Dec 2022 – Present • Conducted Life Cycle Assessments (LCA) to evaluate Scope s ensuring compliance with ISO /s. • Defined the study goal and scope, specifying the functional unit, and set system boundaries for accurate environmental impact analysis. • Gathered and evaluated data across all product life cycle stages, including manufac"
+    },
+    {
+      "id": "r022",
+      "file_name": "anonymized_KA_1793682784307.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Personas"
+      ],
+      "years_experience": 2.0,
+      "education": [
+        "M.Tech in Environmental Science and Technology",
+        "B.Tech in Chemical Engineering",
+        "Dr. M.G.R. Educational and Research Institute, Jun 2018 - Jun 2022",
+        "• Diploma in Chemical Process Safety"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Novel Approaches in the Valorization of Agro-Residues with Coal Blending Towards Low-Cost Electricity Generation",
+        "Developed blend ratios that cut SO₂ emissions.",
+        "Extraction of Nano‑Cellulose from Banana Waste",
+        "Produced nano‑fibers."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "• Regulatory Compliance Training Program - Personal Care"
+        ]
+      },
+      "scores": {
+        "lca": 17.5,
+        "uiux": 35.4
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 10.0,
+          "education": 7.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 2.4,
+          "experience": 25.0,
+          "education": 8.0,
+          "weighted_term_sum": 1,
+          "matched_terms": [
+            "Personas"
+          ]
+        }
+      },
+      "classification": "neither-uncertain",
+      "explanations": {
+        "lca": "LCA score 17.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 10.0/25 (estimated 2.0 yrs vs target 2-3+ years in LCA/sustainability) + education 7.5/15.",
+        "uiux": "UI-UX score 35.4/100 = skills 2.4/60 (matched: Personas) + experience 25.0/25 (estimated 2.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "KA Research Executive Experience Research Executive — L’Oréal Research & Innovation Nov 2024 - Present • Facilitated Halal compliance program within the Regulatory Affairs team, ensuring innovative products adhere to rigorous religious and safety standards from concept through to launch. Trainee Proposal Engineer (Intern) — Aqua Matrix System Pvt. Ltd. Dec 2023 - May 2024 • Formulated techno-comme"
+    },
+    {
+      "id": "r023",
+      "file_name": "anonymized_KN_1793685080310.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Figma",
+        "Prototyping",
+        "UX",
+        "Wireframing"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "Bachelor of Arts"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "Post Graduate in UI UX Design",
+          "UI/UX Designer with strong foundational knowledge in user-centered design and hands-on experience in Figma.",
+          "Platforms: Figma, Canva",
+          "Methods: Wireframing, Prototyping, UX Research"
+        ]
+      },
+      "scores": {
+        "lca": 1.5,
+        "uiux": 51.8
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 0.0,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 28.8,
+          "experience": 20.0,
+          "education": 3.0,
+          "weighted_term_sum": 12,
+          "matched_terms": [
+            "Figma",
+            "Wireframing",
+            "Prototyping",
+            "UX"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 1.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 51.8/100 = skills 28.8/60 (matched: Figma, Wireframing, Prototyping, UX) + experience 20.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 3.0/15."
+      },
+      "text_preview": "KN UI/UX Designer Education Post Graduate in UI UX Design IIIT Bangalore, Expected in 2026-03 Bachelor of Arts University of Calcutta, Completed in 2024 Higher Secondary WBCHSE, Completed in 2019 Madhymik WBBSC, Completed in 2017 Professional Summary UI/UX Designer with strong foundational knowledge in user-centered design and hands-on experience in Figma. Passionate about solving real user proble"
+    },
+    {
+      "id": "r024",
+      "file_name": "anonymized_MI_1793685080235.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Figma",
+        "Framer",
+        "Heuristic Evaluation",
+        "Illustrator",
+        "Information Architecture",
+        "Journey Mapping",
+        "Personas",
+        "Prototypes",
+        "Prototyping",
+        "UX",
+        "Usability",
+        "Usability Testing",
+        "Visual Design",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 16.0,
+      "education": [
+        "Bachelors in Technology"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Decision Debt",
+        "A finance app that replaces manual transaction logging with contextual decision cards.",
+        "• Designed end-to-end in Figma, prototyped using Claude as a coding partner to ship production-grade React components fast.",
+        "• Solved logging fatigue by making the app ask instead of demand, with tailored flows for subscriptions, unclear charges, and split spends."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Intern",
+          "UI/UX Intern — Cryptographic Solutions   Jan 26 - April 26",
+          "• Owned end-to-end product design across both tools, from flows and wireframes to final Figma handoff.",
+          "• Designed end-to-end in Figma, prototyped using Claude as a coding partner to ship production-grade React components fast.",
+          "• Designed 25+ screens with personalized onboarding."
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 75.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 12.0,
+          "education": 3.0,
+          "weighted_term_sum": 31,
+          "matched_terms": [
+            "Figma",
+            "Usability Testing",
+            "Wireframing",
+            "Prototyping",
+            "Framer",
+            "Wireframes",
+            "Prototypes",
+            "Visual Design",
+            "Journey Mapping",
+            "Information Architecture",
+            "UX",
+            "Illustrator",
+            "Personas",
+            "Usability",
+            "Heuristic Evaluation"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 16.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 75.0/100 = skills 60.0/60 (matched: Figma, Usability Testing, Wireframing, Prototyping, Framer, Wireframes) + experience 12.0/25 (estimated 16.0 yrs vs target 0-1 years (internship level)) + education 3.0/15."
+      },
+      "text_preview": "MI UI/UX Intern Experience UI/UX Intern — Cryptographic Solutions Jan 26 - April 26 • Designed the home screen and onboarding tutorials for a B2B internal tool used by second-hand car dealerships, focusing on clarity for non-technical users. • Owned end-to-end product design across both tools, from flows and wireframes to final Figma handoff. • Worked across two live products simultaneously, adapt"
+    },
+    {
+      "id": "r025",
+      "file_name": "anonymized_MM_1793685080338.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Accessibility",
+        "Design Systems",
+        "Figma",
+        "Information Architecture",
+        "Miro",
+        "Prototypes",
+        "Prototyping",
+        "Responsive Design",
+        "UX",
+        "Usability",
+        "User Research",
+        "Visual Design",
+        "WCAG / Accessibility",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "Bachelor of Engineering in Information Technology"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Rail Madad – Assistance-First Train Support Experience",
+        "UX Case Study",
+        "• Conducted user research, competitor analysis, and problem definition to redesign the railway assistance experience.",
+        "• Designed user flows, information architecture, wireframes, and high-fidelity mobile prototypes focused on accessibility and usability."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "UI/UX Design Intern — TopAi24   July 2025 – August 2025",
+          "• Created interactive Figma prototypes to visualize user flows and design concepts.",
+          "• Contributed to the UI/UX design process to ensure consistent cross-platform experiences.",
+          "UX Case Study"
+        ]
+      },
+      "scores": {
+        "lca": 4.0,
+        "uiux": 88.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 0.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 20.0,
+          "education": 8.0,
+          "weighted_term_sum": 31,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Design Systems",
+            "Wireframing",
+            "Prototyping",
+            "Wireframes",
+            "Prototypes",
+            "Visual Design",
+            "Information Architecture",
+            "UX",
+            "Miro",
+            "Usability",
+            "WCAG / Accessibility",
+            "Accessibility",
+            "Responsive Design"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 4.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 88.0/100 = skills 60.0/60 (matched: Figma, User Research, Design Systems, Wireframing, Prototyping, Wireframes) + experience 20.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "MM UI/UX Designer Experience UI/UX Design Intern — TopAi24 July 2025 – August 2025 • Designed modern, user-friendly interfaces for web and mobile applications in collaboration with developers. • Created interactive Figma prototypes to visualize user flows and design concepts. • Designed banners, graphics, and promotional assets aligned with brand identity. • Contributed to the UI/UX design process"
+    },
+    {
+      "id": "r026",
+      "file_name": "anonymized_MS_1793682784442.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Carbon Footprint",
+        "Decarbonization",
+        "ESG",
+        "Eco-design",
+        "GHG Accounting",
+        "LCA",
+        "LCI",
+        "Life Cycle Assessment",
+        "Life Cycle Inventory (LCI)",
+        "SimaPro",
+        "Sustainability",
+        "openLCA"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "Master Thesis (Decarbonization Pathways)",
+        "Master's in Advanced Manufacturing",
+        "Bachelor's in Automobile Engineering",
+        "LCA Consultant with a Master's degree and over 2.s and managing complex environmental datasets. Highly proficient in building Life Cycle Inventory (LCI) models using openLCA in strict accordance with ISO s."
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Master Thesis (Decarbonization Pathways)",
+        "Conducted advanced voyage and emissions simulations across distinct regulatory zones to calculate carbon allowances, environmental penalties, and compliance costs.",
+        "• Simulated alternative technology pathways, modeling long-term OPEX, CAPEX, and environmental trade-offs under evolving international emission regulations (EU ETS, FuelEU).",
+        "ISO / LCA & MFCA"
+      ],
+      "evidence": {
+        "lca": [
+          "Sustainability & Compliance Consultant",
+          "Sustainability & Compliance Consultant — Accurec GmbH   11/2025 – 01/2026",
+          "• Solely responsible for conducting Product Carbon Footprint (PCF) calculations in accordance with European Commission Innovation Fund.",
+          "• Evaluated material-level and product-level compliance against European RoHS, REACH directives to support ESG requests.",
+          "GHG & Environmental Data Analyst — Uniper   10/2024 – 03/2025"
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 75.0,
+        "uiux": 14.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 60.0,
+          "experience": 0.0,
+          "education": 15.0,
+          "weighted_term_sum": 30,
+          "matched_terms": [
+            "SimaPro",
+            "Life Cycle Assessment",
+            "openLCA",
+            "LCA",
+            "Life Cycle Inventory (LCI)",
+            "Carbon Footprint",
+            "LCI",
+            "GHG Accounting",
+            "Sustainability",
+            "Eco-design",
+            "ESG",
+            "Decarbonization"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 10.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 75.0/100 = skills 60.0/60 (matched: SimaPro, Life Cycle Assessment, openLCA, LCA, Life Cycle Inventory (LCI), Carbon Footprint) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 10.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "MS Sustainability & Compliance Consultant Experience Sustainability & Compliance Consultant — Accurec GmbH 11/2025 – 01/2026 • Solely responsible for conducting Product Carbon Footprint (PCF) calculations in accordance with European Commission Innovation Fund. • Evaluated material-level and product-level compliance against European RoHS, REACH directives to support ESG requests. • Managed the syst"
+    },
+    {
+      "id": "r027",
+      "file_name": "anonymized_NA_1793682784346.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Carbon Footprint",
+        "ESG",
+        "GHG Accounting",
+        "Life Cycle Assessment",
+        "Sustainability"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "M.Sc. in Environmental Science",
+        "B.Sc. in Chemistry-Botany-Zoology"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Development of a Charging Infrastructure Ecosystem",
+        "aimed at expanding electric vehicle adoption to reduce carbon footprint and air pollution.",
+        "• Created a guide for stakeholders and owners installing Electric Vehicle Chargers.",
+        "• Suggested charging locations for public charging stations in Mysuru City."
+      ],
+      "evidence": {
+        "lca": [
+          "Assistant Manager - Business Development — Tattva ESG Solutions Private Limited   June 2025 - Dec 2025",
+          "• Serve as the primary client partner, leading ESG framework selection, onboarding, and reporting training.",
+          "• Implement and integrate ESG initiatives onsite to enhance client sustainability performance.",
+          "• Manage brand visibility through digital campaigns, social media, and sustainability events.",
+          "Sustainability Consultant - Intern — Tattva ESG Solutions Private Limited   Dec 2023 - March 2024"
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 43.8,
+        "uiux": 14.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 28.8,
+          "experience": 0.0,
+          "education": 15.0,
+          "weighted_term_sum": 12,
+          "matched_terms": [
+            "Life Cycle Assessment",
+            "Carbon Footprint",
+            "GHG Accounting",
+            "Sustainability",
+            "ESG"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 10.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 43.8/100 = skills 28.8/60 (matched: Life Cycle Assessment, Carbon Footprint, GHG Accounting, Sustainability, ESG) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 10.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "NA Assistant Manager - Business Development Experience Assistant Manager - Business Development — Tattva ESG Solutions Private Limited June 2025 - Dec 2025 • Serve as the primary client partner, leading ESG framework selection, onboarding, and reporting training. • Drive business growth through targeted sales strategies and CXO-level client engagement. • Implement and integrate ESG initiatives ons"
+    },
+    {
+      "id": "r028",
+      "file_name": "anonymized_NF_1793685080347.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Design Thinking",
+        "Figma",
+        "Heuristic Evaluation",
+        "Information Architecture",
+        "Interaction Design",
+        "Journey Mapping",
+        "Personas",
+        "Prototypes",
+        "Prototyping",
+        "UI Design",
+        "UX",
+        "Usability",
+        "User Interface (UI)",
+        "User Research",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 3.0,
+      "education": [
+        "Bachelor of Computer Applications (BCA)"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Jeep ride booking mobile application",
+        "Designed a mobile application for booking rides.",
+        "• Conducted user research to identify the needs of both passengers and drivers, ensuring the app addressed real-world problems effectively.",
+        "• Designed and iterated wireframes, prototypes, and intuitive user interfaces using personas, journey mapping, and usability feedback to create a clear and user-friendly ride-booking experience."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "UI/UX Intern — Devifyx   Aug 2025 – Nov 2025",
+          "• Redesigned the Code School website by enhancing visual hierarchy, layout structure and content organization to improve overall screen clarity and usability.",
+          "• Improved the overall user flow by conducting wireframing and prototyping, ensuring smooth interactions.",
+          "• Conducted user research to identify the needs of both passengers and drivers, ensuring the app addressed real-world problems effectively."
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 86.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 18.0,
+          "education": 8.0,
+          "weighted_term_sum": 33,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Wireframing",
+            "Prototyping",
+            "Wireframes",
+            "Prototypes",
+            "Interaction Design",
+            "Journey Mapping",
+            "Information Architecture",
+            "UX",
+            "User Interface (UI)",
+            "UI Design",
+            "Personas",
+            "Usability",
+            "Heuristic Evaluation",
+            "Design Thinking"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 3.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 86.0/100 = skills 60.0/60 (matched: Figma, User Research, Wireframing, Prototyping, Wireframes, Prototypes) + experience 18.0/25 (estimated 3.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "NF UI/UX Designer Experience UI/UX Intern — Devifyx Aug 2025 – Nov 2025 • Redesigned the Code School website by enhancing visual hierarchy, layout structure and content organization to improve overall screen clarity and usability. • Streamlined the main navigation to ensure intuitive access to all essential sections of the website. • Improved the overall user flow by conducting wireframing and pro"
+    },
+    {
+      "id": "r029",
+      "file_name": "anonymized_NP_1793682784325.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Carbon Footprint",
+        "EPD",
+        "Environmental Product Declaration",
+        "GaBi",
+        "Impact Assessment",
+        "LCA",
+        "Life Cycle Assessment",
+        "SimaPro",
+        "Sketch",
+        "Sustainability",
+        "openLCA"
+      ],
+      "years_experience": 2.0,
+      "education": [
+        "• Selected for Gunnebo's globally competitive Upskill Trainee Program, combining hands-on engineering work with business education from ESCP Business School, London.",
+        "Master of Engineering, Thermal Science Engineering",
+        "Bachelor of Engineering, Mechanical Engineering"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [
+          "• Conducted LCA of Titan SRD Class B & C using OpenLCA and ecoinvent, optimizing the product design to achieve a 15% reduction in carbon emissions, 19.2% reduction in steel usage, and 16 kWh/unit energy savings, introduc",
+          "• Led data collection and validation for the EPD of Steelage Magna Class C Safe, covering raw material, manufacturing, energy, transportation, and end-of-life data;",
+          "currently driving the Magna Safe Class BB project, leading LCA modelling, life-cycle inventory development, and environmental impact assessment in accordance with EN +A2, ISO , and ISO .",
+          "• Integrated LCA and PCF – ISO :2006, ISO :2006 and ISO :2018, TÜV SÜD South Asia – April 2026",
+          "Sustainability and LCA professional with a track record of driving double-digit carbon and material reductions in production-scale engineering projects using OpenLCA and ecoinvent."
+        ],
+        "uiux": [
+          "• Designed and developed SketchWizard, a Python-based desktop application that automates SDL specification drawings with DXF/PDF export, reducing drafting time by 98%."
+        ]
+      },
+      "scores": {
+        "lca": 88.0,
+        "uiux": 37.8
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 60.0,
+          "experience": 20.0,
+          "education": 8.0,
+          "weighted_term_sum": 30,
+          "matched_terms": [
+            "GaBi",
+            "SimaPro",
+            "Life Cycle Assessment",
+            "openLCA",
+            "LCA",
+            "Environmental Product Declaration",
+            "Carbon Footprint",
+            "EPD",
+            "Impact Assessment",
+            "Sustainability"
+          ]
+        },
+        "uiux": {
+          "skills": 4.8,
+          "experience": 25.0,
+          "education": 8.0,
+          "weighted_term_sum": 2,
+          "matched_terms": [
+            "Sketch"
+          ]
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 88.0/100 = skills 60.0/60 (matched: GaBi, SimaPro, Life Cycle Assessment, openLCA, LCA, Environmental Product Declaration) + experience 20.0/25 (estimated 2.0 yrs vs target 2-3+ years in LCA/sustainability) + education 8.0/15.",
+        "uiux": "UI-UX score 37.8/100 = skills 4.8/60 (matched: Sketch) + experience 25.0/25 (estimated 2.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "NP Senior Engineer – R&D Experience Senior Engineer – R&D — Gunnebo India Pvt. Ltd. 09/2024 – Current • Conducted LCA of Titan SRD Class B & C using OpenLCA and ecoinvent, optimizing the product design to achieve a 15% reduction in carbon emissions, 19.2% reduction in steel usage, and 16 kWh/unit energy savings, introduced recycled steel fibers for sustainable material optimization. • Led data col"
+    },
+    {
+      "id": "r030",
+      "file_name": "anonymized_N_1793685080389.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Figma",
+        "Prototypes",
+        "Prototyping",
+        "Responsive Design",
+        "UI Design",
+        "UX",
+        "Usability",
+        "User Experience (UX)",
+        "Wireframes",
+        "Wireframing"
+      ],
+      "years_experience": 4.0,
+      "education": [
+        "Bachelor of Computer Applications",
+        "PKR Jain, Ambala, 2021 - 2022"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Onyx Bank",
+        "Mobile Banking App",
+        "• Designed a modern mobile banking experience covering onboarding, phone verification, PIN setup, biometric authentication, and account setup.",
+        "• Designed the main banking dashboard with balance overview, cards, quick actions, transactions, and payment activity."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "UI/UX Designer — Freelance Projects   Feb 2026 - Present",
+          "• Sharpening UI/UX skills through freelance projects and independent design work.",
+          "• Creating professional web interfaces with a focus on usability, visual hierarchy, responsive design, and polished visual experiences.",
+          "• Working on user flows, wireframes, high-fidelity designs, and prototypes."
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 75.2
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 55.2,
+          "experience": 12.0,
+          "education": 8.0,
+          "weighted_term_sum": 23,
+          "matched_terms": [
+            "Figma",
+            "Wireframing",
+            "Prototyping",
+            "User Experience (UX)",
+            "Wireframes",
+            "Prototypes",
+            "UX",
+            "UI Design",
+            "Usability",
+            "Responsive Design"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 75.2/100 = skills 55.2/60 (matched: Figma, Wireframing, Prototyping, User Experience (UX), Wireframes, Prototypes) + experience 12.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "N UI/UX Designer Experience UI/UX Designer — Freelance Projects Feb 2026 - Present • Sharpening UI/UX skills through freelance projects and independent design work. • Creating professional web interfaces with a focus on usability, visual hierarchy, responsive design, and polished visual experiences. • Working on user flows, wireframes, high-fidelity designs, and prototypes. Full Stack Developer — "
+    },
+    {
+      "id": "r031",
+      "file_name": "anonymized_PD_1793682784400.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "CSRD",
+        "ESG",
+        "GHG Accounting",
+        "GRI Reporting",
+        "Sustainability"
+      ],
+      "years_experience": 5.0,
+      "education": [],
+      "projects": [],
+      "evidence": {
+        "lca": [
+          "• Lead a team of s overseeing ESG research workflows, quality standards, and delivery across a portfolio of 2,000+ corporate clients.",
+          "• Drive ESG risk assessments focused on climate-related financial risks, translating findings into actionable insights for institutional stakeholders.",
+          "• Designed and deployed a Google Chrome extension automating file validation in sustainability reporting workflows — reducing manual review time by 8% and improving data accuracy.",
+          "• Conducted in-depth controversy analyses across the ESG ratings universe, strengthening ratings robustness and defensibility.",
+          "• Developed CSRD-aligned sustainability roadmaps for 4 clients, covering GHG reduction targets, ESG policy design, and disclosure gap assessments."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 56.8,
+        "uiux": 13.5
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 16.8,
+          "experience": 25.0,
+          "education": 15.0,
+          "weighted_term_sum": 7,
+          "matched_terms": [
+            "GHG Accounting",
+            "Sustainability",
+            "GRI Reporting",
+            "CSRD",
+            "ESG"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 6.0,
+          "education": 7.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 56.8/100 = skills 16.8/60 (matched: GHG Accounting, Sustainability, GRI Reporting, CSRD, ESG) + experience 25.0/25 (estimated 5.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 13.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 6.0/25 (estimated 5.0 yrs vs target 0-1 years (internship level)) + education 7.5/15."
+      },
+      "text_preview": "PD Lead Analyst Experience Lead Analyst — SustainoMetric Ltd. March 2026 – Present • Lead a team of s overseeing ESG research workflows, quality standards, and delivery across a portfolio of 2,000+ corporate clients. • Drive ESG risk assessments focused on climate-related financial risks, translating findings into actionable insights for institutional stakeholders. • Implemented the updated EU Omn"
+    },
+    {
+      "id": "r032",
+      "file_name": "anonymized_PKG_1793682784369.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "ESG",
+        "Environmental Management",
+        "Impact Assessment",
+        "Sustainability",
+        "Waste Management"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "Master of Technology in Environmental Science and Engineering",
+        "Bachelor of Engineering in Civil Engineering"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Assessment of Coal Fire Impact on Soil Heavy Metals and Human Health in BCCL Cluster VII, Dhanbad",
+        "• Collected & analyzed soil from coal-fire zones, quantified As, Cd, Cr, Hg, Pb, Ni, Mn, Fe, Cu, Ba using ICP-OES.",
+        "• Conducted health risk assessment.",
+        "• Prepared technical documentation and risk assessment reports."
+      ],
+      "evidence": {
+        "lca": [
+          "Teaching Assistant – Solid Waste Management Laboratory — IIT Dhanbad   Jan – April 2026",
+          "• Conducted field assessments at SAIL, Salem and JSW Steel, Bellary (Vijayanagar) to gather primary data on waste generation, slag production, resource recovery, and environmental management systems implemented in integr",
+          "• Introduction to ESG and Climate Change Risk November 2025",
+          "Dedicated environmental engineering professional with experience in teaching assistance and internships focused on solid waste management and environmental assessments.",
+          "Methods: Environmental Impact Assessment, Life Cycle Analysis, Sustainability, ESG Reporting frameworks"
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 31.8,
+        "uiux": 14.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 16.8,
+          "experience": 0.0,
+          "education": 15.0,
+          "weighted_term_sum": 7,
+          "matched_terms": [
+            "Impact Assessment",
+            "Sustainability",
+            "ESG",
+            "Environmental Management",
+            "Waste Management"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 10.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "neither-uncertain",
+      "explanations": {
+        "lca": "LCA score 31.8/100 = skills 16.8/60 (matched: Impact Assessment, Sustainability, ESG, Environmental Management, Waste Management) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 10.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "PKG Teaching Assistant Experience Teaching Assistant – Solid Waste Management Laboratory — IIT Dhanbad Jan – April 2026 Teaching Assistant – Soil and Microbiology Laboratory — IIT Dhanbad July – Dec 2025 Intern - Environment and Ecology Department — Bureau of Indian Standards (BIS) May – July 2025 • Assisted in the revision of IS :1983 – Guidelines for the Utilization and Disposal of Solid Wastes "
+    },
+    {
+      "id": "r033",
+      "file_name": "anonymized_PL_1793685080319.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Adobe XD",
+        "Design Thinking",
+        "FigJam",
+        "Figma",
+        "Miro",
+        "Personas",
+        "Sketch",
+        "UI Design",
+        "UX",
+        "User Experience (UX)",
+        "User Research",
+        "Wireframes"
+      ],
+      "years_experience": 4.0,
+      "education": [
+        "B.E. in Computer Science"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Enhanced Network Intrusion Detection System using deep learning",
+        "Designed an intuitive security dashboard that simplified network monitoring.",
+        "• Made detected attacks, alerts, and threat patterns easier for users to identify and understand.",
+        "Text Encryption & Decryption Interface"
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer Intern",
+          "UI/UX Designer Intern — Syntellite Innovations   May 2026 – July 2026",
+          "• Designed user flows, wireframes, and high-fidelity interfaces for AllChargeX, simplifying navigation across multiple EV charging operators.",
+          "• Conducted user research, competitor analysis, and persona development for ONIX Import Export, translating user insights into clear user flows.",
+          "• Google UX Design Professional Certificate"
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 80.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 60.0,
+          "experience": 12.0,
+          "education": 8.0,
+          "weighted_term_sum": 25,
+          "matched_terms": [
+            "Figma",
+            "Adobe XD",
+            "User Research",
+            "User Experience (UX)",
+            "Sketch",
+            "Wireframes",
+            "UX",
+            "UI Design",
+            "Miro",
+            "FigJam",
+            "Personas",
+            "Design Thinking"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 80.0/100 = skills 60.0/60 (matched: Figma, Adobe XD, User Research, User Experience (UX), Sketch, Wireframes) + experience 12.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "PL UI/UX Designer Intern Experience UI/UX Designer Intern — Syntellite Innovations May 2026 – July 2026 • Designed user flows, wireframes, and high-fidelity interfaces for AllChargeX, simplifying navigation across multiple EV charging operators. • Conducted user research, competitor analysis, and persona development for ONIX Import Export, translating user insights into clear user flows. • Researc"
+    },
+    {
+      "id": "r034",
+      "file_name": "anonymized_PS_1793682784387.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Design Thinking"
+      ],
+      "years_experience": 7.0,
+      "education": [
+        "MBA",
+        "B.Sc. (Physics Hons.)"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "IIM Kashipur Academic Projects",
+        "Drove end-to-end academic projects, leveraging Design Thinking, Marketing Analytics, Retail Management, Consumer Behaviour, Sales & Distribution, Service Management to generate actionable business insights.",
+        "• Executed projects in Human Resources, applying HR Analytics to develop data-driven people strategies and innovative business solutions.",
+        "Growth Marketing | Careerboat"
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "Drove end-to-end academic projects, leveraging Design Thinking, Marketing Analytics, Retail Management, Consumer Behaviour, Sales & Distribution, Service Management to generate actionable business insights.",
+          "Methods: Design Thinking, Data Analysis"
+        ]
+      },
+      "scores": {
+        "lca": 14.0,
+        "uiux": 17.4
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 2.4,
+          "experience": 12.0,
+          "education": 3.0,
+          "weighted_term_sum": 1,
+          "matched_terms": [
+            "Design Thinking"
+          ]
+        }
+      },
+      "classification": "neither-uncertain",
+      "explanations": {
+        "lca": "LCA score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 7.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 17.4/100 = skills 2.4/60 (matched: Design Thinking) + experience 12.0/25 (estimated 7.0 yrs vs target 0-1 years (internship level)) + education 3.0/15."
+      },
+      "text_preview": "PS Manager – Risk Analytics Experience Manager – Risk Analytics — Axis Bank June 2024 – Present • Delivering data-driven risk insights using delinquency and inferencing analysis, enabling Credit and Marketing teams to prevent ₹500+ crore potential losses. • Managing performance analytics for a ₹25,000+ crore multi-product portfolio while analyzing 50L+ customer data using PowerBI, Excel, Python, a"
+    },
+    {
+      "id": "r035",
+      "file_name": "anonymized_PV_1793685080171.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Accessibility",
+        "Figma",
+        "Illustrator",
+        "Photoshop",
+        "Prototyping",
+        "UI Design",
+        "UX",
+        "User Research",
+        "Wireframing"
+      ],
+      "years_experience": 5.0,
+      "education": [
+        "B.Des in Communication Design"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Thin-File Credit Underwriting System Design",
+        "Designed a lending system that improves loan accessibility for low tech-savvy and culturally underserved users.",
+        "nLoad - Truck Aggregator App",
+        "ed a 30% improvement in load matching, cutting waiting time down to 1-2 days."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UX/UI Designer — Monsoonfish Inc   Jan 2026 - Mar 2026",
+          "Designed a lending system that improves loan accessibility for low tech-savvy and culturally underserved users.",
+          "Platforms: Figma, Adobe Photoshop, Adobe Illustrator, Adobe After Effects",
+          "Methods: UX Design, UI Design, User Research, Product Design & Strategy, Prototyping & Wireframing, Graphic Design, Branding, Packaging",
+          "Figma, Adobe Photoshop, Adobe Illustrator, Adobe After Effects"
+        ]
+      },
+      "scores": {
+        "lca": 14.0,
+        "uiux": 75.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 48.0,
+          "experience": 12.0,
+          "education": 15.0,
+          "weighted_term_sum": 20,
+          "matched_terms": [
+            "Figma",
+            "User Research",
+            "Wireframing",
+            "Prototyping",
+            "UX",
+            "UI Design",
+            "Illustrator",
+            "Photoshop",
+            "Accessibility"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 5.0 yrs vs target 2-3+ years in LCA/sustainability) + education 1.5/15.",
+        "uiux": "UI-UX score 75.0/100 = skills 48.0/60 (matched: Figma, User Research, Wireframing, Prototyping, UX, UI Design) + experience 12.0/25 (estimated 5.0 yrs vs target 0-1 years (internship level)) + education 15.0/15."
+      },
+      "text_preview": "PV Product Designer Experience UX/UI Designer — Monsoonfish Inc Jan 2026 - Mar 2026 • Designed an efficient security guard system and developed one of the fastest entry access solutions in the market for delivery personnel and frequent visitors using API passcodes. Projects / Deliverables Thin-File Credit Underwriting System Design Designed a lending system that improves loan accessibility for low"
+    },
+    {
+      "id": "r036",
+      "file_name": "anonymized_PW_1793682784228.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Circular Economy",
+        "Decarbonization",
+        "GHG Accounting",
+        "GaBi",
+        "Impact Assessment",
+        "LCA",
+        "Life Cycle Assessment",
+        "Life Cycle Inventory (LCI)",
+        "Net Zero",
+        "Renewables",
+        "Sustainability",
+        "Water Footprint",
+        "openLCA"
+      ],
+      "years_experience": 2.0,
+      "education": [
+        "B.E. in Chemical Engineering"
+      ],
+      "projects": [
+        "Associate 1",
+        "Experience",
+        "Associate 1 — CSIR NEERI   June 2024 – Present",
+        "• Contributed to various environmental sustainability projects under the Department of Environmental Sustainability and Green Economy (ESGE), focusing on Sustainable Environmental Processes (SEP).",
+        "• Working on MRIO modelling with hybridisation of LCA for supply chain management."
+      ],
+      "evidence": {
+        "lca": [
+          "• Contributed to various environmental sustainability projects under the Department of Environmental Sustainability and Green Economy (ESGE), focusing on Sustainable Environmental Processes (SEP).",
+          "• Working on MRIO modelling with hybridisation of LCA for supply chain management.",
+          "• Working on comparative LCA of query search through LLMs such as ChatGPT and Gemini, and their water footprint.",
+          "• Performed comparative LCA of commercial fish feed vs Microalgae Biomass, using literature research and GaBi database to find a sustainable alternative for fish feed.",
+          "• Performed LCA of marine microalgae-based COration using seawater and renewable energy integration to reduce the environmental footprint."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 95.0,
+        "uiux": 16.5
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 60.0,
+          "experience": 20.0,
+          "education": 15.0,
+          "weighted_term_sum": 30,
+          "matched_terms": [
+            "GaBi",
+            "Life Cycle Assessment",
+            "openLCA",
+            "LCA",
+            "Life Cycle Inventory (LCI)",
+            "GHG Accounting",
+            "Impact Assessment",
+            "Circular Economy",
+            "Sustainability",
+            "Water Footprint",
+            "Net Zero",
+            "Renewables",
+            "Decarbonization"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 95.0/100 = skills 60.0/60 (matched: GaBi, Life Cycle Assessment, openLCA, LCA, Life Cycle Inventory (LCI), GHG Accounting) + experience 20.0/25 (estimated 2.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 2.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "PW Project Associate 1 Experience Project Associate 1 — CSIR NEERI June 2024 – Present • Contributed to various environmental sustainability projects under the Department of Environmental Sustainability and Green Economy (ESGE), focusing on Sustainable Environmental Processes (SEP). • Working on MRIO modelling with hybridisation of LCA for supply chain management. • Working on Life Cycle Analysis "
+    },
+    {
+      "id": "r037",
+      "file_name": "anonymized_PW_1793685080367.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Adobe XD",
+        "Design Thinking",
+        "FigJam",
+        "Figma",
+        "Information Architecture",
+        "Prototypes",
+        "UI Design",
+        "UX",
+        "Usability",
+        "Visual Design",
+        "Wireframes"
+      ],
+      "years_experience": 5.0,
+      "education": [
+        "• Improved content organization and navigation, enabling administrators to manage educational resources more efficiently.",
+        "Bachelor of Technology (B. Tech) in Information Technology",
+        "Domain Knowledge: E-commerce, Education, Hospitality, Travel"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "NEXORA LEARN",
+        "Learning Management Admin Dashboard",
+        "• Designed 35+ responsive dashboard screens for an e-learning platform managing courses, content banks, notes, assignments, question banks, and PYQs.",
+        "• Created user flows, wireframes, high-fidelity interfaces, and reusable components to simplify complex administrative workflows."
+      ],
+      "evidence": {
+        "lca": [],
+        "uiux": [
+          "UI/UX Designer",
+          "UI/UX Designer — S K ILLS AN D TOOLS   Dec 2025 - Present",
+          "• Designed 50+ responsive web and mobile screens for client and internal digital products using Figma.",
+          "• Created 30+ wireframes and 15+ interactive prototypes to streamline user flows and validate design concepts.",
+          "UI/UX Designer - Intern — Ankhub technology & Services   Jan 2025 - Mar 2025"
+        ]
+      },
+      "scores": {
+        "lca": 16.5,
+        "uiux": 72.8
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        },
+        "uiux": {
+          "skills": 52.8,
+          "experience": 12.0,
+          "education": 8.0,
+          "weighted_term_sum": 22,
+          "matched_terms": [
+            "Figma",
+            "Adobe XD",
+            "Wireframes",
+            "Prototypes",
+            "Visual Design",
+            "Information Architecture",
+            "UX",
+            "UI Design",
+            "FigJam",
+            "Usability",
+            "Design Thinking"
+          ]
+        }
+      },
+      "classification": "UI-UX",
+      "explanations": {
+        "lca": "LCA score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 5.0 yrs vs target 2-3+ years in LCA/sustainability) + education 4.0/15.",
+        "uiux": "UI-UX score 72.8/100 = skills 52.8/60 (matched: Figma, Adobe XD, Wireframes, Prototypes, Visual Design, Information Architecture) + experience 12.0/25 (estimated 5.0 yrs vs target 0-1 years (internship level)) + education 8.0/15."
+      },
+      "text_preview": "PW UI/UX Designer Experience UI/UX Designer — S K ILLS AN D TOOLS Dec 2025 - Present • Designed 50+ responsive web and mobile screens for client and internal digital products using Figma. • Created 30+ wireframes and 15+ interactive prototypes to streamline user flows and validate design concepts. • Built and maintained 40+ reusable UI components to improve design consistency and collaboration. UI"
+    },
+    {
+      "id": "r038",
+      "file_name": "anonymized_RR_1793682784428.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Carbon Footprint",
+        "Decarbonization",
+        "ESG",
+        "GHG Accounting",
+        "LCA",
+        "Life Cycle Assessment",
+        "Life Cycle Inventory (LCI)",
+        "Sustainability",
+        "openLCA"
+      ],
+      "years_experience": 4.0,
+      "education": [
+        "B.Tech, Biotechnology (Honours)"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Comparative LCA of Bio - CNG Production from Municipal Solid Waste vs. Sugarcane Residues",
+        "Conducted a comparative cradle - to - gate Life Cycle Assessment of two commercial - scale Bio - CNG production systems in India.",
+        "• Evaluated feedstock - level environmental trade - offs and identified key process hotspots driving impact across both pathways.",
+        "• Informed evidence - based recommendations for grid decarbonization and pretreatment/digestate management."
+      ],
+      "evidence": {
+        "lca": [
+          "LCA Associate Consultant",
+          "LCA Associate Consultant — Enviguide Techno Solutions Private Limited   Jun 2026 – Present",
+          "• Collaborated with the application development team to design backend logic for secondary database mapping in a Product Carbon Footprint (PCF) application aligned with the Catena - X Rulebook and ISO .",
+          "• Performed Greenhouse Gas (GHG) accounting for automotive client engagements, supporting carbon footprint calculations across multiple Bills of Materials (BOMs).",
+          "• Conducted cradle - to - gate Life Cycle Assessments (LCA) using openLCA for automotive components, leveraging Ecoinvent 3.12 and BAFU databases for life cycle inventory modeling."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 85.8,
+        "uiux": 7.5
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 52.8,
+          "experience": 25.0,
+          "education": 8.0,
+          "weighted_term_sum": 22,
+          "matched_terms": [
+            "Life Cycle Assessment",
+            "openLCA",
+            "LCA",
+            "Life Cycle Inventory (LCI)",
+            "Carbon Footprint",
+            "GHG Accounting",
+            "Sustainability",
+            "ESG",
+            "Decarbonization"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 6.0,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 85.8/100 = skills 52.8/60 (matched: Life Cycle Assessment, openLCA, LCA, Life Cycle Inventory (LCI), Carbon Footprint, GHG Accounting) + experience 25.0/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 8.0/15.",
+        "uiux": "UI-UX score 7.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 6.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 1.5/15."
+      },
+      "text_preview": "RR LCA Associate Consultant Experience LCA Associate Consultant — Enviguide Techno Solutions Private Limited Jun 2026 – Present • Collaborated with the application development team to design backend logic for secondary database mapping in a Product Carbon Footprint (PCF) application aligned with the Catena - X Rulebook and ISO . • Performed Greenhouse Gas (GHG) accounting for automotive client eng"
+    },
+    {
+      "id": "r039",
+      "file_name": "anonymized_RS_1793682784414.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "CSRD",
+        "ESG",
+        "GHG Accounting",
+        "GRI Reporting",
+        "Impact Assessment",
+        "LCA",
+        "Life Cycle Assessment",
+        "Sustainability"
+      ],
+      "years_experience": 1.0,
+      "education": [
+        "MBA / PGDSM – Sustainability Management",
+        "M.Tech – Thermal Engineering",
+        "B.Tech – Mechanical Engineering"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [
+          "ESG Analyst",
+          "ESG Analyst — New River Consulting   Apr 2025 – Present",
+          "• Owned end-to-end ESG data collection aligned with approved ESG SOPs across 5 client engagements;",
+          "• Tracked key ESG metrics for quarterly investor presentations;",
+          "coordinated data follow-ups, resolved gaps, and managed submission timelines and data dependencies for ESG rating submissions including DJSI and S&P ESG Corporate Sustainability Assessment (CSA)."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 65.4,
+        "uiux": 16.5
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 38.4,
+          "experience": 12.0,
+          "education": 15.0,
+          "weighted_term_sum": 16,
+          "matched_terms": [
+            "Life Cycle Assessment",
+            "LCA",
+            "GHG Accounting",
+            "Impact Assessment",
+            "Sustainability",
+            "GRI Reporting",
+            "CSRD",
+            "ESG"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 65.4/100 = skills 38.4/60 (matched: Life Cycle Assessment, LCA, GHG Accounting, Impact Assessment, Sustainability, GRI Reporting) + experience 12.0/25 (estimated 1.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 1.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "RS ESG Analyst Experience ESG Analyst — New River Consulting Apr 2025 – Present • Owned end-to-end ESG data collection aligned with approved ESG SOPs across 5 client engagements; maintained structured data repositories and audit-ready evidence logs ensuring traceability and consistency across reporting periods. • Tracked key ESG metrics for quarterly investor presentations; coordinated data follow"
+    },
+    {
+      "id": "r040",
+      "file_name": "anonymized_SRK_1793682784455.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "CSRD",
+        "Decarbonisation",
+        "ESG",
+        "GHG Accounting",
+        "Impact Assessment",
+        "LCA",
+        "Life Cycle Assessment",
+        "Scope 3 Emissions",
+        "Sustainability",
+        "openLCA"
+      ],
+      "years_experience": 4.0,
+      "education": [],
+      "projects": [
+        "Associate — IIT Madras   Jan 2021 - Oct 2021",
+        "• Collaborated with faculty and industry experts to analyze the nitrate removal process of a bioreactor and optimize its performance.",
+        "• Performed Life Cycle Assessments (LCA) to evaluate environmental impacts of waste treatment processes.",
+        "• Led environmental risk assessments and developed corrective action plans, ensuring compliance with regulatory requirements.",
+        "Graduate Teaching Assistant — National Institute of Technology   Aug 2019 - Oct 2020"
+      ],
+      "evidence": {
+        "lca": [
+          "Associate LCA Consultant",
+          "Associate LCA Consultant — Mondra Global Ltd   Mar 2022 - Present",
+          "• Lead end-to-end Life Cycle Assessment (LCA) and Scope s across food, beverage, and FMCG supply chains, delivering decision-ready insights to major UK and global clients.",
+          "• Manage the complete LCA workflow — data collection, supplier engagement, secondary database research, system boundary definition, and allocation methodologies — ensuring alignment with ISO LCA standards, ESG frameworks",
+          "• Translate complex supply-chain and emissions data into actionable sustainability insights, supporting decarbonisation pathways, internal carbon pricing, and scenario-adjusted KPIs for informed client decision-making."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 90.4,
+        "uiux": 10.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 50.4,
+          "experience": 25.0,
+          "education": 15.0,
+          "weighted_term_sum": 21,
+          "matched_terms": [
+            "Life Cycle Assessment",
+            "openLCA",
+            "LCA",
+            "GHG Accounting",
+            "Scope 3 Emissions",
+            "Impact Assessment",
+            "Sustainability",
+            "CSRD",
+            "ESG",
+            "Decarbonisation"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 6.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 90.4/100 = skills 50.4/60 (matched: Life Cycle Assessment, openLCA, LCA, GHG Accounting, Scope 3 Emissions, Impact Assessment) + experience 25.0/25 (estimated 4.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 10.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 6.0/25 (estimated 4.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "SRK Associate LCA Consultant Experience Associate LCA Consultant — Mondra Global Ltd Mar 2022 - Present • Lead end-to-end Life Cycle Assessment (LCA) and Scope s across food, beverage, and FMCG supply chains, delivering decision-ready insights to major UK and global clients. • Manage the complete LCA workflow — data collection, supplier engagement, secondary database research, system boundary defi"
+    },
+    {
+      "id": "r041",
+      "file_name": "anonymized_SS_1793682784470.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Circular Economy",
+        "Decarbonization",
+        "ESG",
+        "GHG Accounting",
+        "GRI Reporting",
+        "GaBi",
+        "LCA",
+        "Life Cycle Assessment",
+        "Net Zero",
+        "Renewables",
+        "SimaPro",
+        "Sustainability",
+        "openLCA"
+      ],
+      "years_experience": 7.0,
+      "education": [
+        "M.Tech in Sustainable Engineering",
+        "B.Tech in Mechanical Engineering"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Optimizing Sustainable Building Materials: LCA of Fast-Track Construction Techniques",
+        "Performed comparative LCA of GFRG, EPS, and red brick systems to evaluate embodied carbon, energy consumption, and sustainability impacts of alternative construction materials.",
+        "Life Cycle Assessment of Biogas Production from Arecanut Husk, Parthenium, and Cow Dung",
+        "Conducted LCA of arecanut husk, parthenium, and cow dung-based biogas systems and mapped impacts to UN SDGs."
+      ],
+      "evidence": {
+        "lca": [
+          "• Executed ISO /-compliant cradle-to-gate LCA studies for cement, pharmaceutical, animal healthcare, and electromineral manufacturing facilities using SimaPro, Ecoinvent, and ReCiPe 2016 Midpoint methodologies.",
+          "• Developed representative nationwide cement sector LCA datasets using data collected from 20+ cement plants across India and conducted embodied and operational carbon assessments across multiple building typologies to e",
+          "• Prepared Net Zero uring units through Scope 1 & 2 emissions assessment and evaluation of decarbonization levers including renewable energy integration, AFR utilization, SEC reduction, CCUS deployment, green refrigerant",
+          "• Delivered sustainability training sessions, site visits, technical reports, webinars, benchmarking studies, and stakeholder presentations related to climate transition and industrial sustainability initiatives.",
+          "Optimizing Sustainable Building Materials: LCA of Fast-Track Construction Techniques"
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 93.0,
+        "uiux": 10.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 60.0,
+          "experience": 25.0,
+          "education": 8.0,
+          "weighted_term_sum": 29,
+          "matched_terms": [
+            "GaBi",
+            "SimaPro",
+            "Life Cycle Assessment",
+            "openLCA",
+            "LCA",
+            "GHG Accounting",
+            "Circular Economy",
+            "Sustainability",
+            "GRI Reporting",
+            "ESG",
+            "Net Zero",
+            "Renewables",
+            "Decarbonization"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 6.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 93.0/100 = skills 60.0/60 (matched: GaBi, SimaPro, Life Cycle Assessment, openLCA, LCA, GHG Accounting) + experience 25.0/25 (estimated 7.0 yrs vs target 2-3+ years in LCA/sustainability) + education 8.0/15.",
+        "uiux": "UI-UX score 10.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 6.0/25 (estimated 7.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "SS Engineer, Energy Efficiency & Climate Change Experience Engineer, Energy Efficiency & Climate Change — Confederation of Indian Industry (CII) – Green Business Centre July 2025 – Present • Executed ISO /-compliant cradle-to-gate LCA studies for cement, pharmaceutical, animal healthcare, and electromineral manufacturing facilities using SimaPro, Ecoinvent, and ReCiPe 2016 Midpoint methodologies. "
+    },
+    {
+      "id": "r042",
+      "file_name": "anonymized_SS_1793682784484.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "ESG",
+        "GHG Accounting",
+        "GRI Reporting",
+        "Impact Assessment",
+        "LCA",
+        "Life Cycle Assessment",
+        "Sustainability",
+        "openLCA"
+      ],
+      "years_experience": 9.0,
+      "education": [
+        "Master of Business Management in Sustainability Management",
+        "Bachelor of Engineering in Automobile Engineering"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Environmental Impact Assessment (EIA) - Bisleri Bottles for Change Program",
+        "Contributed to a pan-India EIA/SIA study for a plastic circularity initiative.",
+        "• Covered baseline assessment, stakeholder mapping, and KPI design.",
+        "• Evaluated environmental and social impacts including plastic diversion volumes and CO2 avoidance metrics to support programme reporting."
+      ],
+      "evidence": {
+        "lca": [
+          "ESG & Sustainability Professional",
+          "ESG & Sustainability Professional — PwC   Ongoing",
+          "• Supporting GRI and BRSR-aligned ESG reporting, improving data consistency across functions.",
+          "• Conducted ESG data validation and analysis, ensuring accuracy of sustainability disclosures.",
+          "• Coordinated with cross-functional teams to streamline ESG data collection processes."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 83.2,
+        "uiux": 10.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 43.2,
+          "experience": 25.0,
+          "education": 15.0,
+          "weighted_term_sum": 18,
+          "matched_terms": [
+            "Life Cycle Assessment",
+            "openLCA",
+            "LCA",
+            "GHG Accounting",
+            "Impact Assessment",
+            "Sustainability",
+            "GRI Reporting",
+            "ESG"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 6.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 83.2/100 = skills 43.2/60 (matched: Life Cycle Assessment, openLCA, LCA, GHG Accounting, Impact Assessment, Sustainability) + experience 25.0/25 (estimated 9.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 10.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 6.0/25 (estimated 9.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "SS ESG & Sustainability Professional Experience ESG & Sustainability Professional — PwC Ongoing • Supporting GRI and BRSR-aligned ESG reporting, improving data consistency across functions. • Conducted ESG data validation and analysis, ensuring accuracy of sustainability disclosures. • Coordinated with cross-functional teams to streamline ESG data collection processes. Junior Manager — Eicher Trac"
+    },
+    {
+      "id": "r043",
+      "file_name": "anonymized_TM_1793682784495.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Carbon Footprint",
+        "Circular Economy",
+        "Impact Assessment",
+        "LCA",
+        "Life Cycle Assessment",
+        "SimaPro",
+        "Sustainability"
+      ],
+      "years_experience": 3.0,
+      "education": [
+        "M.Tech in Automotive Engineering",
+        "B.Tech in Mechanical Engineering"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Interior System LCA – Instrument Panel",
+        "Performed Life Cycle Assessment of vehicle instrument panel assemblies using SimaPro with a cradle-to-gate scope.",
+        "• Assessed the environmental impact of materials and manufacturing processes used in interior components.",
+        "• Evaluated alternative material options to compare the environmental performance across design variants."
+      ],
+      "evidence": {
+        "lca": [
+          "Sustainability Engineer",
+          "• Performed Life Cycle Assessment using SimaPro for EV and ICE platforms, supporting material selection and early design decisions.",
+          "• Applied circular economy principles to evaluate material reuse, recyclability, and lifecycle impact reduction.",
+          "Interior System LCA – Instrument Panel",
+          "Performed Life Cycle Assessment of vehicle instrument panel assemblies using SimaPro with a cradle-to-gate scope."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 81.0,
+        "uiux": 13.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 48.0,
+          "experience": 25.0,
+          "education": 8.0,
+          "weighted_term_sum": 20,
+          "matched_terms": [
+            "SimaPro",
+            "Life Cycle Assessment",
+            "LCA",
+            "Carbon Footprint",
+            "Impact Assessment",
+            "Circular Economy",
+            "Sustainability"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 9.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 81.0/100 = skills 48.0/60 (matched: SimaPro, Life Cycle Assessment, LCA, Carbon Footprint, Impact Assessment, Circular Economy) + experience 25.0/25 (estimated 3.0 yrs vs target 2-3+ years in LCA/sustainability) + education 8.0/15.",
+        "uiux": "UI-UX score 13.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 9.0/25 (estimated 3.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "TM Sustainability Engineer Experience Engineer — L&T Technology Services March 2023 – Present • Performed Life Cycle Assessment using SimaPro for EV and ICE platforms, supporting material selection and early design decisions. • Applied circular economy principles to evaluate material reuse, recyclability, and lifecycle impact reduction. Projects / Deliverables Interior System LCA – Instrument Pane"
+    },
+    {
+      "id": "r044",
+      "file_name": "anonymized_UI_1793682784506.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Carbon Footprint",
+        "EPD",
+        "ESG",
+        "GHG Accounting",
+        "LCA",
+        "Scope 3 Emissions",
+        "Sustainability",
+        "Waste Management"
+      ],
+      "years_experience": 1.0,
+      "education": [
+        "Master of Science in Environmental Sciences",
+        "Bachelor of Science in Zoology"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Plastic Waste Management",
+        "Coordinator for plastic waste management initiative.",
+        "• Engaged with 40+ clients",
+        "• Delivered 20+ projects as lead"
+      ],
+      "evidence": {
+        "lca": [
+          "Sustainability Consultant / Operations In-charge",
+          "Sustainability Consultant / Operations In-charge — VRS CERT FZ LLC   AUG 2025 - PRESENT",
+          "• Leading sustainability teams, assigning tasks, tracking progress, and ensuring timely delivery of ESG projects.",
+          "• Serving as the primary client contact, participating in proposal and project kickoff meetings, defining project requirements, and managing communication for GHG, EcoVadis, and EPD projects.",
+          "• Preparing carbon footprints and GHG inventories and supporting ISO  and ISO  verification."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 65.4,
+        "uiux": 16.5
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 38.4,
+          "experience": 12.0,
+          "education": 15.0,
+          "weighted_term_sum": 16,
+          "matched_terms": [
+            "LCA",
+            "Carbon Footprint",
+            "EPD",
+            "GHG Accounting",
+            "Scope 3 Emissions",
+            "Sustainability",
+            "ESG",
+            "Waste Management"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 12.5,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 65.4/100 = skills 38.4/60 (matched: LCA, Carbon Footprint, EPD, GHG Accounting, Scope 3 Emissions, Sustainability) + experience 12.0/25 (estimated 1.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 16.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 12.5/25 (estimated 1.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "UI Sustainability Consultant / Operations In-charge Experience Sustainability Consultant / Operations In-charge — VRS CERT FZ LLC AUG 2025 - PRESENT • Leading sustainability teams, assigning tasks, tracking progress, and ensuring timely delivery of ESG projects. • Serving as the primary client contact, participating in proposal and project kickoff meetings, defining project requirements, and manag"
+    },
+    {
+      "id": "r045",
+      "file_name": "anonymized_VG_1793682784531.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Circular Economy",
+        "Decarbonisation",
+        "Decarbonization",
+        "ESG",
+        "GHG Accounting",
+        "GRI Reporting",
+        "Impact Assessment",
+        "Life Cycle Assessment",
+        "Net Zero",
+        "Renewables",
+        "Sustainability",
+        "openLCA"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "Bachelor of Management Studies (Finance)",
+        "Mumbai University, 2018",
+        "MBA (Sustainability Management)"
+      ],
+      "projects": [
+        "/ Deliverables",
+        "Annual Fest Sponsorships",
+        "Secured sponsorships from  across media, mobility, wellness, recycling, and green skilling.",
+        "Digital Infrastructure Impact Study",
+        "Published co-authored paper at ICETAO ure's impact on learning outcomes across s."
+      ],
+      "evidence": {
+        "lca": [
+          "Global Field Operations & Impact Assessment Intern",
+          "Global Field Operations & Impact Assessment Intern — Quality Council of India   Jan 2026 - May 2026",
+          "• Spearheaded first-of-its-kind socio-economic impact assessment of s worth $500M+ across 14 countries in Africa, Asia, and Latin America.",
+          "ESG Strategy & Decarbonisation Intern — JSW MG Motor India   Jun 2025 - Nov 2025",
+          "• Pioneered BRSR-aligned ESG & CSR learning modules institutionalized for C-suite leadership, 2K+ employees, and future hires, earning MD endorsement."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 65.4,
+        "uiux": 11.5
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 50.4,
+          "experience": 0.0,
+          "education": 15.0,
+          "weighted_term_sum": 21,
+          "matched_terms": [
+            "Life Cycle Assessment",
+            "openLCA",
+            "GHG Accounting",
+            "Impact Assessment",
+            "Circular Economy",
+            "Sustainability",
+            "GRI Reporting",
+            "ESG",
+            "Net Zero",
+            "Renewables",
+            "Decarbonization",
+            "Decarbonisation"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 10.0,
+          "education": 1.5,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 65.4/100 = skills 50.4/60 (matched: Life Cycle Assessment, openLCA, GHG Accounting, Impact Assessment, Circular Economy, Sustainability) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 11.5/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 10.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 1.5/15."
+      },
+      "text_preview": "VG Global Field Operations & Impact Assessment Intern Experience Global Field Operations & Impact Assessment Intern — Quality Council of India Jan 2026 - May 2026 • Spearheaded first-of-its-kind socio-economic impact assessment of s worth $500M+ across 14 countries in Africa, Asia, and Latin America. • Led field assessments across Mozambique, Eswatini, and Malawi - engaging community beneficiaries"
+    },
+    {
+      "id": "r046",
+      "file_name": "anonymized_VM_1793682784520.docx",
+      "status": "ok",
+      "error": null,
+      "skills": [
+        "Circular Economy",
+        "Decarbonisation",
+        "ESG",
+        "GaBi",
+        "Impact Assessment",
+        "LCA",
+        "Renewables",
+        "Scope 3 Emissions",
+        "Sustainability",
+        "openLCA"
+      ],
+      "years_experience": 0.0,
+      "education": [
+        "Dual M.Sc. — Renewable Energy, Energy Efficiency & Sustainability",
+        "B.Sc. — Mechanical Engineering"
+      ],
+      "projects": [],
+      "evidence": {
+        "lca": [
+          "Energy & Sustainability Consultant",
+          "Energy & Sustainability Consultant — AECOM GmbH   Jun 2023 – Aug 2025",
+          "• Conducted primary and secondary research on industrial supply chain decarbonisation trends, identifying growth opportunities in green energy-powered supplier networks.",
+          "• Designed and delivered a circular economy strategy for the automotive sector, reducing Scope 3 emissions by 35% and eliminating 2,e.",
+          "• Produced market intelligence deliverables and KPI tracking frameworks to monitor industrial decarbonisation progress."
+        ],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 65.4,
+        "uiux": 14.0
+      },
+      "breakdown": {
+        "lca": {
+          "skills": 50.4,
+          "experience": 0.0,
+          "education": 15.0,
+          "weighted_term_sum": 21,
+          "matched_terms": [
+            "GaBi",
+            "openLCA",
+            "LCA",
+            "Scope 3 Emissions",
+            "Impact Assessment",
+            "Circular Economy",
+            "Sustainability",
+            "ESG",
+            "Renewables",
+            "Decarbonisation"
+          ]
+        },
+        "uiux": {
+          "skills": 0.0,
+          "experience": 10.0,
+          "education": 4.0,
+          "weighted_term_sum": 0,
+          "matched_terms": []
+        }
+      },
+      "classification": "LCA",
+      "explanations": {
+        "lca": "LCA score 65.4/100 = skills 50.4/60 (matched: GaBi, openLCA, LCA, Scope 3 Emissions, Impact Assessment, Circular Economy) + experience 0.0/25 (estimated 0.0 yrs vs target 2-3+ years in LCA/sustainability) + education 15.0/15.",
+        "uiux": "UI-UX score 14.0/100 = skills 0.0/60 (matched: no role-specific terms found) + experience 10.0/25 (estimated 0.0 yrs vs target 0-1 years (internship level)) + education 4.0/15."
+      },
+      "text_preview": "VM Energy & Sustainability Consultant Experience Energy & Sustainability Consultant — AECOM GmbH Jun 2023 – Aug 2025 • Conducted primary and secondary research on industrial supply chain decarbonisation trends, identifying growth opportunities in green energy-powered supplier networks. • Designed and delivered a circular economy strategy for the automotive sector, reducing Scope 3 emissions by 35%"
+    },
+    {
+      "id": "r047",
+      "file_name": "anonymized_resume_1793685080327.docx",
+      "status": "error",
+      "error": "No extractable text found in file",
+      "skills": [],
+      "years_experience": 0,
+      "education": [],
+      "projects": [],
+      "evidence": {
+        "lca": [],
+        "uiux": []
+      },
+      "scores": {
+        "lca": 0,
+        "uiux": 0
+      },
+      "breakdown": {
+        "lca": null,
+        "uiux": null
+      },
+      "classification": "neither-uncertain",
+      "explanations": {
+        "lca": "Extraction failed; not scored.",
+        "uiux": "Extraction failed; not scored."
+      }
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Growth For Impact — Resume Screening Prototype</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<style>
+  :root{--lca:#0f766e;--uiux:#6d28d9;--ink:#111827;--mut:#6b7280;--line:#e5e7eb;--bg:#f8fafc}
+  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+  header{background:#0b2530;color:#fff;padding:20px 24px}
+  header h1{margin:0 0 4px;font-size:20px} header p{margin:0;color:#cbd5e1;font-size:13px}
+  .wrap{max-width:1200px;margin:0 auto;padding:16px}
+  .banner{border-radius:8px;padding:10px 14px;margin:12px 0;font-size:13px}
+  .banner.sample{background:#fef3c7;border:1px solid #f59e0b}
+  .banner.error{background:#fef2f2;border:1px solid #fca5a5}
+  .banner.info{background:#eff6ff;border:1px solid #93c5fd}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:end;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:12px 0}
+  .controls label{font-size:12px;color:var(--mut);display:block;margin-bottom:4px}
+  .controls select,.controls input{padding:7px 9px;border:1px solid var(--line);border-radius:6px;font-size:14px}
+  .upload{border:2px dashed #94a3b8;border-radius:10px;background:#fff;padding:14px;text-align:center;margin:12px 0}
+  .upload input{margin-top:8px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:900px){.grid{grid-template-columns:1fr}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .card h2{margin:0;padding:12px 14px;font-size:16px;color:#fff}
+  .card.lca h2{background:var(--lca)} .card.uiux h2{background:var(--uiux)}
+  .card h2 small{display:block;font-weight:400;font-size:12px;opacity:.85}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  tr.row{cursor:pointer} tr.row:hover{background:#f1f5f9} tr.row.sel{background:#e0f2fe}
+  .score{font-weight:700;font-size:15px}
+  .badge{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11px;border:1px solid var(--line);background:#f3f4f6}
+  .badge.LCA{background:#ccfbf1}.badge.UI-UX{background:#ede9fe}.badge.both{background:#fef9c3}.badge.err{background:#fee2e2}
+  .terms{color:var(--mut);font-size:12px}
+  #detail{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px;margin:16px 0}
+  #detail h3{margin:0 0 6px}
+  .chips span{display:inline-block;background:#eef2ff;border:1px solid #c7d2fe;border-radius:999px;padding:2px 9px;margin:2px;font-size:12px}
+  .bar{height:10px;background:#e5e7eb;border-radius:6px;overflow:hidden;margin:4px 0 10px}
+  .bar i{display:block;height:100%}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:900px){.cols{grid-template-columns:1fr}}
+  ul{margin:6px 0;padding-left:18px} li{margin:3px 0;font-size:13px}
+  .expl{font-size:13px;background:#f8fafc;border:1px solid var(--line);border-radius:8px;padding:9px 11px}
+  footer{color:var(--mut);font-size:12px;padding:18px 0 30px}
+  .muted{color:var(--mut);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Resume Screening Prototype — JD1 LCA Consultant · JD2 UI/UX Design Intern</h1>
+  <p>Growth For Impact — Software Engineering Assignment · Transparent, explainable ranking (see METHODOLOGY.md)</p>
+</header>
+<div class="wrap">
+  <div id="sampleBanner"></div>
+  <div id="loadError"></div>
+  <div id="errorBanner"></div>
+
+  <div class="controls">
+    <div><label for="sortSel">Sort both lists by</label>
+      <select id="sortSel">
+        <option value="role">Role score (high → low)</option>
+        <option value="years">Years of experience (high → low)</option>
+        <option value="name">Candidate file name (A → Z)</option>
+        <option value="other">Other-role score (high → low)</option>
+      </select></div>
+    <div><label for="classSel">Filter by classification</label>
+      <select id="classSel">
+        <option value="all">All classifications</option>
+        <option value="LCA">LCA</option>
+        <option value="UI-UX">UI-UX</option>
+        <option value="both">Both</option>
+        <option value="neither-uncertain">Neither / uncertain</option>
+        <option value="error">Extraction errors only</option>
+      </select></div>
+    <div><label for="searchBox">Search file name or skill</label>
+      <input id="searchBox" type="text" placeholder="e.g. Figma, SimaPro, Sample_01"></div>
+    <div class="muted" id="stats"></div>
+  </div>
+
+  <div class="upload">
+    <strong>Add a resume</strong> — it is extracted, scored with the same logic as the pipeline, and inserted into both rankings live.
+    <br><input type="file" id="fileInput" accept=".docx,.txt,.pdf">
+    <div class="muted" id="uploadMsg">Supports .docx (via JSZip), .txt, and text-based .pdf (via pdf.js). Uploaded files never leave the browser.</div>
+  </div>
+
+  <div class="grid">
+    <div class="card lca"><h2>JD1 — Life Cycle Assessment (LCA) Consultant<small>2–3+ yrs · GaBi / SimaPro · ISO 14040/14044 · LCI · EPD</small></h2>
+      <table><thead><tr><th>#</th><th>Candidate</th><th>Score</th><th>Yrs</th><th>Class</th><th>Top matched evidence</th></tr></thead>
+      <tbody id="tbodyLca"></tbody></table></div>
+    <div class="card uiux"><h2>JD2 — UI/UX Design Intern<small>0–1 yr · Figma · user research · prototyping · design systems</small></h2>
+      <table><thead><tr><th>#</th><th>Candidate</th><th>Score</th><th>Yrs</th><th>Class</th><th>Top matched evidence</th></tr></thead>
+      <tbody id="tbodyUiux"></tbody></table></div>
+  </div>
+
+  <div id="detail"><h3>Candidate detail</h3><p class="muted">Click any candidate row to see the extracted information and exactly how the ranking score was produced.</p></div>
+
+  <footer>Scoring: skills evidence 0–60 + experience fit 0–25 + education relevance 0–15, per role; experience/education are halved when a resume has zero domain-term evidence for that role. Full formula, term lists and limitations: METHODOLOGY.md. Prototype only — scores support, and do not replace, human review.</footer>
+</div>
+
+<script>
+"use strict";
+/* Term lists are generated from pipeline.py so the browser scorer and the
+   Python pipeline can never drift apart. Format: [key, display, weight]. */
+const TERMS = {"lca": [["gabi", "GaBi", 4], ["simapro", "SimaPro", 4], ["life cycle assessment", "Life Cycle Assessment", 4], ["openlca", "openLCA", 3], ["brightway", "Brightway", 3], ["lca", "LCA", 3], ["life cycle inventory", "Life Cycle Inventory (LCI)", 3], ["iso 14040", "ISO 14040", 3], ["iso 14044", "ISO 14044", 3], ["environmental product declaration", "Environmental Product Declaration", 3], ["carbon footprint", "Carbon Footprint", 3], ["lci", "LCI", 2], ["iso 14025", "ISO 14025", 2], ["en 15804", "EN 15804", 2], ["epd", "EPD", 2], ["ghg", "GHG Accounting", 2], ["scope 3", "Scope 3 Emissions", 2], ["impact assessment", "Impact Assessment", 2], ["circular economy", "Circular Economy", 2], ["sustainability", "Sustainability", 2], ["eco-design", "Eco-design", 2], ["ecodesign", "Eco-design", 2], ["product category rules", "Product Category Rules (PCR)", 2], ["water footprint", "Water Footprint", 2], ["gri", "GRI Reporting", 1], ["csrd", "CSRD", 1], ["esg", "ESG", 1], ["net zero", "Net Zero", 1], ["environmental management", "Environmental Management", 1], ["waste management", "Waste Management", 1], ["renewable", "Renewables", 1], ["decarbonization", "Decarbonization", 1], ["decarbonisation", "Decarbonisation", 1]], "uiux": [["figma", "Figma", 4], ["adobe xd", "Adobe XD", 3], ["user research", "User Research", 3], ["usability testing", "Usability Testing", 3], ["design system", "Design Systems", 3], ["wireframing", "Wireframing", 3], ["prototyping", "Prototyping", 3], ["user experience", "User Experience (UX)", 3], ["sketch", "Sketch", 2], ["invision", "InVision", 2], ["framer", "Framer", 2], ["wireframe", "Wireframes", 2], ["prototype", "Prototypes", 2], ["interaction design", "Interaction Design", 2], ["visual design", "Visual Design", 2], ["user persona", "User Personas", 2], ["journey mapping", "Journey Mapping", 2], ["information architecture", "Information Architecture", 2], ["ux", "UX", 2], ["user interface", "User Interface (UI)", 2], ["ui design", "UI Design", 2], ["human-computer interaction", "HCI", 2], ["user psychology", "User Psychology", 2], ["miro", "Miro", 1], ["figjam", "FigJam", 1], ["zeplin", "Zeplin", 1], ["illustrator", "Illustrator", 1], ["photoshop", "Photoshop", 1], ["persona", "Personas", 1], ["usability", "Usability", 1], ["heuristic", "Heuristic Evaluation", 1], ["a/b testing", "A/B Testing", 1], ["wcag", "WCAG / Accessibility", 1], ["accessibility", "Accessibility", 1], ["responsive design", "Responsive Design", 1], ["design thinking", "Design Thinking", 1]]};
+const SKILL_SATURATION = 25.0, STRONG_SCORE = 45, MATCH_SCORE = 40, CURRENT_YEAR = 2026;
+const LCA_EDU_STRONG=["environmental","sustainability","chemical engineering","energy","climate","ecology","environment"];
+const LCA_EDU_STEM=["engineering","science","computer","technology","mechanical"];
+const UIUX_EDU_STRONG=["design","human-computer","hci","psychology","fine arts","communication design","industrial design"];
+const UIUX_EDU_STEM=["computer","engineering","information technology","science"];
+const DEGREE_HINTS=["b.tech","btech","b.e.","bachelor","m.tech","mtech","master","mba","b.des","m.des","b.sc","m.sc","phd","ph.d","diploma","bca","mca","degree"];
+
+/* ---------------- scoring (mirror of pipeline.py) ---------------- */
+function termFound(textLower,key){
+  if(key.length<=3){ return new RegExp("\\b"+key.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"\\b").test(textLower); }
+  return textLower.includes(key);
+}
+function matchTerms(textLower,terms){
+  let total=0; const found={};
+  for(const [key,display,weight] of terms){
+    if(termFound(textLower,key) && !(display in found)){ found[display]=weight; total+=weight; }
+  }
+  const displays=Object.keys(found).sort((a,b)=>found[b]-found[a]);
+  return {total,displays,found};
+}
+function estimateYears(text){
+  const lower=text.toLowerCase(); const cand=[];
+  const pats=[/(\d+(?:\.\d+)?)\s*\+?\s*years?\s+(?:of\s+)?(?:relevant\s+)?experience/g,
+              /experience\s*(?:of|:)?\s*(\d+(?:\.\d+)?)\s*\+?\s*years?/g];
+  for(const p of pats){ let m; while((m=p.exec(lower))) cand.push(parseFloat(m[1])); }
+  let span=0; const rp=/\b(19|20)(\d{2})\s*[-\u2013]\s*((?:19|20)\d{2}|present|current)\b/g; let m;
+  while((m=rp.exec(lower))){
+    const start=parseInt(m[1]+m[2],10);
+    const end=(m[3]==="present"||m[3]==="current")?CURRENT_YEAR:parseInt(m[3],10);
+    if(end-start>=0 && end-start<=40) span+=(end-start);
+  }
+  if(span) cand.push(span);
+  const y=cand.length?Math.max(...cand):0;
+  return Math.round(Math.min(y,40)*10)/10;
+}
+function extractEducation(text){
+  const out=[];
+  for(const line of text.split(/\n/)){
+    const low=line.toLowerCase();
+    if(low.includes("education")||DEGREE_HINTS.some(h=>low.includes(h))){
+      const cleaned=line.trim().replace(/^education[:\s]*/i,"");
+      if(cleaned && cleaned.toLowerCase()!=="education") out.push(cleaned);
+    }
+  }
+  return out.slice(0,4);
+}
+function extractProjects(text){
+  const out=[]; let inP=false;
+  for(const line of text.split(/\n/)){
+    const low=line.toLowerCase();
+    if(low.startsWith("project")){
+      inP=true; const rest=line.trim().replace(/^projects?[:\s]*/i,"");
+      if(rest) out.push(rest); continue;
+    }
+    if(inP){
+      if(/^(skills|education|work experience|experience|summary|certifications)[:\s]/.test(low)) inP=false;
+      else if(line.trim()) out.push(line.trim());
+    }
+  }
+  return out.slice(0,5);
+}
+function evidenceSentences(text,terms,limit=5){
+  const keys=terms.map(t=>t[0]); const out=[];
+  for(const chunk of text.split(/(?<=[.!;])\s+|\n/)){
+    const low=chunk.toLowerCase();
+    if(chunk.trim() && keys.some(k=>termFound(low,k))) out.push(chunk.trim().slice(0,220));
+    if(out.length>=limit) break;
+  }
+  return out;
+}
+function lcaExpPoints(y){ if(y>=3)return 25; if(y>=2)return 20; if(y>=1)return 12; if(y>0)return 6; return 0; }
+function uiuxExpPoints(y){ if(y===0)return 20; if(y<=2)return 25; if(y===3)return 18; return 12; }
+function eduPoints(eduLower,strong,stem){
+  if(strong.some(k=>eduLower.includes(k))) return 15;
+  if(stem.some(k=>eduLower.includes(k))) return 8;
+  return 3;
+}
+function scoreRole(textLower,years,eduLower,terms,expFn,eduStrong,eduStem){
+  const {total,displays}=matchTerms(textLower,terms);
+  const skillPoints=Math.round(60*Math.min(1,total/SKILL_SATURATION)*10)/10;
+  const gate= total>0 ? 1.0 : 0.5;
+  const exp=expFn(years), edu=eduPoints(eduLower,eduStrong,eduStem);
+  const breakdown={skills:skillPoints, experience:Math.round(exp*gate*10)/10,
+    education:Math.round(edu*gate*10)/10, weighted_term_sum:total, matched_terms:displays};
+  const totalScore=Math.round(Math.min(100, skillPoints+(exp+edu)*gate)*10)/10;
+  return {score:totalScore, breakdown};
+}
+function classify(lca,uiux){
+  if(lca>=STRONG_SCORE && uiux>=STRONG_SCORE) return "both";
+  if(lca>=MATCH_SCORE && lca>uiux) return "LCA";
+  if(uiux>=MATCH_SCORE && uiux>lca) return "UI-UX";
+  return "neither-uncertain";
+}
+function explain(role,score,bd,years,target){
+  const ev=bd.matched_terms.length? bd.matched_terms.slice(0,6).join(", ") : "no role-specific terms found";
+  return role+" score "+score+"/100 = skills "+bd.skills+"/60 (matched: "+ev+") + experience "+
+    bd.experience+"/25 (estimated "+years+" yrs vs target "+target+") + education "+bd.education+"/15.";
+}
+function scoreCandidate(fileName,text){
+  const lower=text.toLowerCase();
+  const years=estimateYears(text);
+  const education=extractEducation(text);
+  const eduLower=(education.join(" ").toLowerCase())||lower;
+  const projects=extractProjects(text);
+  const l=scoreRole(lower,years,eduLower,TERMS.lca,lcaExpPoints,LCA_EDU_STRONG,LCA_EDU_STEM);
+  const u=scoreRole(lower,years,eduLower,TERMS.uiux,uiuxExpPoints,UIUX_EDU_STRONG,UIUX_EDU_STEM);
+  return {
+    id:"u"+Date.now(), file_name:fileName, status:"ok", error:null,
+    skills:[...new Set([...l.breakdown.matched_terms,...u.breakdown.matched_terms])].sort(),
+    years_experience:years, education, projects,
+    evidence:{lca:evidenceSentences(text,TERMS.lca), uiux:evidenceSentences(text,TERMS.uiux)},
+    scores:{lca:l.score, uiux:u.score}, breakdown:{lca:l.breakdown, uiux:u.breakdown},
+    classification:classify(l.score,u.score),
+    explanations:{ lca:explain("LCA",l.score,l.breakdown,years,"2-3+ years in LCA/sustainability"),
+                    uiux:explain("UI-UX",u.score,u.breakdown,years,"0-1 years (internship level)") },
+    text_preview:text.replace(/\s+/g," ").slice(0,400)
+  };
+}
+function errorCandidate(fileName,msg){
+  return { id:"u"+Date.now(), file_name:fileName, status:"error", error:msg, skills:[],
+    years_experience:0, education:[], projects:[], evidence:{lca:[],uiux:[]},
+    scores:{lca:0,uiux:0}, breakdown:{lca:null,uiux:null}, classification:"neither-uncertain",
+    explanations:{lca:"Extraction failed; not scored.",uiux:"Extraction failed; not scored."} };
+}
+
+/* ---------------- upload extraction ---------------- */
+async function extractDocx(file){
+  if(typeof JSZip==="undefined") throw new Error("JSZip library unavailable (offline?) — .docx upload needs the CDN script; .txt upload still works.");
+  const zip=await JSZip.loadAsync(file);
+  const xmlFile=zip.file("word/document.xml");
+  if(!xmlFile) throw new Error("word/document.xml not found — not a valid .docx");
+  const xml=await xmlFile.async("string");
+  const doc=new DOMParser().parseFromString(xml,"text/xml");
+  const paras=[];
+  for(const p of doc.getElementsByTagName("*")){
+    if(p.localName!=="p") continue;
+    let line="";
+    for(const n of p.getElementsByTagName("*")) if(n.localName==="t") line+=n.textContent;
+    if(line.trim()) paras.push(line.trim());
+  }
+  return paras.join("\n");
+}
+async function extractPdf(file){
+  if(typeof pdfjsLib==="undefined") throw new Error("pdf.js unavailable (offline?) — please upload .docx or .txt.");
+  pdfjsLib.GlobalWorkerOptions.workerSrc="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+  const buf=await file.arrayBuffer();
+  const pdf=await pdfjsLib.getDocument({data:buf}).promise;
+  let text="";
+  for(let i=1;i<=pdf.numPages;i++){
+    const page=await pdf.getPage(i);
+    const content=await page.getTextContent();
+    text+=content.items.map(it=>it.str).join(" ")+"\n";
+  }
+  return text;
+}
+async function handleUpload(file){
+  const msg=document.getElementById("uploadMsg");
+  try{
+    let text="";
+    const name=file.name.toLowerCase();
+    if(name.endsWith(".txt")) text=await file.text();
+    else if(name.endsWith(".docx")) text=await extractDocx(file);
+    else if(name.endsWith(".pdf")) text=await extractPdf(file);
+    else throw new Error("Unsupported file type — use .docx, .txt or .pdf");
+    if(!text.trim()) throw new Error("No extractable text found in file (scanned-image PDFs are not supported)");
+    const cand=scoreCandidate(file.name,text);
+    state.candidates.push(cand); state.selectedId=cand.id;
+    msg.textContent="Added "+file.name+" — LCA "+cand.scores.lca+"/100, UI-UX "+cand.scores.uiux+"/100, classified as "+cand.classification+".";
+  }catch(err){
+    const cand=errorCandidate(file.name,String(err.message||err));
+    state.candidates.push(cand); state.selectedId=cand.id;
+    msg.textContent="Could not extract "+file.name+": "+cand.error+" (added to the list as an extraction error, score 0)";
+  }
+  render();
+}
+
+/* ---------------- rendering ---------------- */
+const state={candidates:[], meta:null, sort:"role", classFilter:"all", query:"", selectedId:null};
+const $=id=>document.getElementById(id);
+function esc(s){ return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function visible(){
+  return state.candidates.filter(c=>{
+    if(state.classFilter==="error" && c.status!=="error") return false;
+    if(state.classFilter!=="all" && state.classFilter!=="error" && c.classification!==state.classFilter) return false;
+    if(state.query){
+      const q=state.query.toLowerCase();
+      const hay=(c.file_name+" "+(c.skills||[]).join(" ")).toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+function sortedFor(role){
+  const other= role==="lca" ? "uiux" : "lca";
+  const arr=visible().slice();
+  arr.sort((a,b)=>{
+    if(state.sort==="years") return (b.years_experience-a.years_experience)||(b.scores[role]-a.scores[role]);
+    if(state.sort==="name") return a.file_name.localeCompare(b.file_name);
+    if(state.sort==="other") return b.scores[other]-a.scores[other];
+    return b.scores[role]-a.scores[role];
+  });
+  return arr;
+}
+function rowHtml(c,role,idx){
+  const bd=c.breakdown[role];
+  const terms=bd? bd.matched_terms.slice(0,4).join(", ") : "";
+  const cls=c.status==="error" ? '<span class="badge err">error</span>' : '<span class="badge '+esc(c.classification)+'">'+esc(c.classification)+"</span>";
+  return '<tr class="row'+(state.selectedId===c.id?" sel":"")+'" data-id="'+esc(c.id)+'">'+
+    "<td>"+(idx+1)+"</td><td><strong>"+esc(c.file_name)+"</strong>"+
+    (c.status==="error"? '<div class="terms">⚠ '+esc(c.error)+"</div>":"")+"</td>"+
+    '<td class="score">'+c.scores[role]+"</td><td>"+c.years_experience+"</td><td>"+cls+"</td>"+
+    '<td class="terms">'+esc(terms)+"</td></tr>";
+}
+function render(){
+  $("tbodyLca").innerHTML=sortedFor("lca").map((c,i)=>rowHtml(c,"lca",i)).join("") || '<tr><td colspan="6" class="muted">No candidates match the current filter.</td></tr>';
+  $("tbodyUiux").innerHTML=sortedFor("uiux").map((c,i)=>rowHtml(c,"uiux",i)).join("") || '<tr><td colspan="6" class="muted">No candidates match the current filter.</td></tr>';
+  document.querySelectorAll("tr.row").forEach(tr=>tr.addEventListener("click",()=>{ state.selectedId=tr.dataset.id; render(); }));
+  const errs=state.candidates.filter(c=>c.status==="error");
+  $("errorBanner").innerHTML=errs.length? '<div class="banner error"><strong>Extraction errors ('+errs.length+"):</strong> "+
+    errs.map(c=>esc(c.file_name)+" — "+esc(c.error)).join(" · ")+"</div>" : "";
+  const counts={};
+  state.candidates.forEach(c=>counts[c.classification]=(counts[c.classification]||0)+1);
+  $("stats").textContent=state.candidates.length+" candidates · "+
+    Object.entries(counts).map(([k,v])=>k+": "+v).join(" · ");
+  renderDetail();
+}
+function bar(label,val,color){
+  return "<div>"+label+' — <strong>'+val+'/100</strong><div class="bar"><i style="width:'+val+'%;background:'+color+'"></i></div></div>';
+}
+function renderDetail(){
+  const c=state.candidates.find(x=>x.id===state.selectedId);
+  if(!c) return;
+  const d=$("detail");
+  if(c.status==="error"){
+    d.innerHTML="<h3>"+esc(c.file_name)+'</h3><div class="banner error">Extraction failed: '+esc(c.error)+"</div>"+
+      '<p class="muted">This file is kept in the dataset with score 0 so the failure is visible to the reviewer instead of silently dropping the candidate.</p>';
+    return;
+  }
+  const ev=list=>list&&list.length? "<ul>"+list.map(x=>"<li>"+esc(x)+"</li>").join("")+"</ul>" : '<p class="muted">None found</p>';
+  d.innerHTML="<h3>"+esc(c.file_name)+' &nbsp;<span class="badge '+esc(c.classification)+'">'+esc(c.classification)+"</span></h3>"+
+    '<p class="muted">Source file: '+esc(c.file_name)+" · Estimated experience: <strong>"+c.years_experience+" years</strong></p>"+
+    '<div class="cols"><div>'+bar("LCA score",c.scores.lca,"var(--lca)")+'<p class="expl">'+esc(c.explanations.lca)+"</p>"+
+      "<h4>LCA evidence from the resume</h4>"+ev(c.evidence.lca)+"</div>"+
+    "<div>"+bar("UI-UX score",c.scores.uiux,"var(--uiux)")+'<p class="expl">'+esc(c.explanations.uiux)+"</p>"+
+      "<h4>UI-UX evidence from the resume</h4>"+ev(c.evidence.uiux)+"</div></div>"+
+    "<h4>Extracted skills / role terms</h4><div class=\"chips\">"+(c.skills.map(s=>"<span>"+esc(s)+"</span>").join("")||'<span class="muted">None</span>')+"</div>"+
+    "<h4>Education (extracted lines)</h4>"+ev(c.education)+
+    "<h4>Projects (extracted lines)</h4>"+ev(c.projects)+
+    '<h4>Resume text preview</h4><p class="muted">'+esc(c.text_preview||"")+"</p>";
+}
+
+/* ---------------- wiring ---------------- */
+$("sortSel").addEventListener("change",e=>{ state.sort=e.target.value; render(); });
+$("classSel").addEventListener("change",e=>{ state.classFilter=e.target.value; render(); });
+$("searchBox").addEventListener("input",e=>{ state.query=e.target.value; render(); });
+$("fileInput").addEventListener("change",e=>{ if(e.target.files[0]) handleUpload(e.target.files[0]); e.target.value=""; });
+
+fetch("data.json").then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+.then(data=>{
+  state.meta=data.meta; state.candidates=data.candidates||[];
+  if(data.meta && data.meta.source==="sample"){
+    $("sampleBanner").innerHTML='<div class="banner sample"><strong>Running on SAMPLE data.</strong> '+esc(data.meta.source_note||"")+"</div>";
+  }
+  render();
+})
+.catch(err=>{
+  $("loadError").innerHTML='<div class="banner error"><strong>Could not load data.json</strong> ('+esc(err.message)+
+    '). If you opened this file directly, start a local server instead: <code>python3 -m http.server</code> in the app folder, then open http://localhost:8000. The upload box below still works without data.json.</div>';
+  render();
+});
+</script>
+</body>
+</html>
